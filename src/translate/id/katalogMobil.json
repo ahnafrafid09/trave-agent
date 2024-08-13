@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "namaMobil": "Toyota All New Avanza",
+        "tahun" : "2017-2023",
+        "bahanBakar" : "Bensin",
+        "jenisMobil" : "Mpv Keluarga",
+        "kapasitasPenumpang": 6,
+        "harga": 450000,
+        "gambar": "/images/avanza.png"
+    },
+    {
+        "id": 2,
+        "namaMobil": "Toyota Innova Reborn",
+        "tahun" : "2021",
+        "bahanBakar" : "Solar/Dexlite/Pertadex",
+        "jenisMobil" : "Mpv Keluarga",
+        "kapasitasPenumpang": 7,
+        "harga": 450000,
+        "gambar": "/images/innova.png"
+    },
+    {
+        "id": 3,
+        "namaMobil": "Toyota Hiace Commuter",
+        "tahun" : "2019",
+        "bahanBakar" : "Solar/Dexlite/Pertadex",
+        "jenisMobil" : "Minibus",
+        "kapasitasPenumpang": 14,
+        "harga": 450000,
+        "gambar": "/images/hiace commuter.png"
+    },
+    {
+        "id": 4,
+        "namaMobil": "Toyota Hiace Premio",
+        "tahun" : "2021",
+        "bahanBakar" : "Solar/Dexlite/Pertadex",
+        "jenisMobil" : "Minibus",
+        "kapasitasPenumpang": 11,
+        "harga": 450000,
+        "gambar": "/images/hiace premio.png"
+    }
+    
+]
