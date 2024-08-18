@@ -12,11 +12,12 @@ function App() {
       <BrowserRouter>
         <div className="font-sans flex flex-col min-h-screen">
           <Navbar />
-          <main className="flex-grow pb-6">
+          <main className="flex-grow mb-4">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/produk-kami" element={<ProdukKami />} />
-              <Route path="/kontak" element={<Kontak />} />
+              <Route path="/:lang" element={<Home />} />
+              <Route path="/:lang/produk-kami" element={<ProdukKami />} />
+              <Route path="/:lang/kontak" element={<Kontak />} />
             </Routes>
           </main>
           <Footer />
