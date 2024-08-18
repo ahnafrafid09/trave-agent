@@ -9,8 +9,17 @@ export default {
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '2rem',
+          sm: '2.5rem',
+          md: '3rem',
+          lg: '4rem',
+        },
+      },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 }
 
