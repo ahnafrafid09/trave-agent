@@ -1,0 +1,105 @@
+{
+  "heading": {
+    "title": "Produk Kami"
+  },
+
+  "katalogMobil": {
+    "title": "Daftar Harga Sewa Mobil",
+    "labels": {
+      "tahun": "Model Tahun",
+      "bahanBakar": "Bahan Bakar",
+      "jenisMobil": "Jenis Mobil",
+      "kapasitas": "Kapasitas"
+    },
+    "listMobil": [
+      {
+        "id": 1,
+        "namaMobil": "Toyota All New Avanza",
+        "tahun": "2017-2023",
+        "bahanBakar": "Bensin",
+        "jenisMobil": "MPV",
+        "kapasitasPenumpang": "6 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/avanza.png"
+      },
+      {
+        "id": 2,
+        "namaMobil": "Toyota Innova Reborn",
+        "tahun": "2021",
+        "bahanBakar": "Solar/Dexlite/Pertadex",
+        "jenisMobil": "MPV",
+        "kapasitasPenumpang": "7 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/innova.png"
+      },
+      {
+        "id": 3,
+        "namaMobil": "Toyota Hiace Commuter",
+        "tahun": "2019",
+        "bahanBakar": "Solar/Dexlite/Pertadex",
+        "jenisMobil": "Minibus",
+        "kapasitasPenumpang": "14 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/hiace commuter.png"
+      },
+      {
+        "id": 4,
+        "namaMobil": "Toyota Hiace Premio",
+        "tahun": "2021",
+        "bahanBakar": "Solar/Dexlite/Pertadex",
+        "jenisMobil": "Minibus",
+        "kapasitasPenumpang": "11 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/hiace premio.png"
+      },
+      {
+        "id": 5,
+        "namaMobil": "Toyota Avanza Grand",
+        "tahun": "2021",
+        "bahanBakar": "Bensin",
+        "jenisMobil": "MPV",
+        "kapasitasPenumpang": "6 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/avanza grand.jpg"
+      },
+      {
+        "id": 6,
+        "namaMobil": "Toyota Alphard",
+        "tahun": "2021",
+        "bahanBakar": "Bensin",
+        "jenisMobil": "MPV",
+        "kapasitasPenumpang": "7 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/alphard.png"
+      },
+      {
+        "id": 7,
+        "namaMobil": "Toyota Fortuner",
+        "tahun": "2021",
+        "bahanBakar": "Solar/Dexlite/Pertadex",
+        "jenisMobil": "SUV",
+        "kapasitasPenumpang": "7 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/fortuner.png"
+      },
+      {
+        "id": 8,
+        "namaMobil": "Isuzu Giga",
+        "tahun": "2021",
+        "bahanBakar": "Solar/Dexlite/Pertadex",
+        "jenisMobil": "Truk",
+        "kapasitasPenumpang": "2 Orang",
+        "kapasitasDriver": "1 Supir",
+        "harga": 450000,
+        "gambar": "/images/mobil/giga.jpg"
+      }
+    ]
+  }
+}
