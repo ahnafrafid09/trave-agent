@@ -34,7 +34,7 @@ const Map = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position} icon={markerIcon}>
-          <Popup>Mayasari Garage</Popup>
+          <Popup>Anjangsana Trip Planner</Popup>
         </Marker>
       </MapContainer>
     </div>

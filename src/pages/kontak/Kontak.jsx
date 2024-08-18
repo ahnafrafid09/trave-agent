@@ -3,15 +3,18 @@ import Header from "../../components/Header";
 import Card from "../../components/Card";
 import Map from "../../components/Map";
 import { IoLocationSharp, IoMail, IoCallSharp } from "react-icons/io5";
+import { useTranslation } from "react-i18next";
 
 const Kontak = () => {
+  const { t } = useTranslation("kontak");
+
   return (
     <section className="mt-16 md:mt-24">
-      <Header>Kontak Kami</Header>
-      <div className="container mx-auto">
+      <Header>{t("header")}</Header>
+      <div className="container">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 mt-12">
-            Hubungi Kami
+            {t("hubungiKami")}
           </h1>
         </div>
         <div className="flex items-center justify-center">
@@ -19,26 +22,26 @@ const Kontak = () => {
             <Card
               variant="simple"
               Icon={IoLocationSharp}
-              judul="Lokasi"
-              deskripsi="Grand permata jingga, Boulevard Avenue 1 No.25, Keduyo, Mangliawan, Kec. Pakis, Kabupaten Malang, Jawa Timur 65154"
+              judul={t("lokasi.title")}
+              deskripsi={t("lokasi.description")}
             />
             <Card
               variant="simple"
               Icon={IoMail}
-              judul="Email"
-              deskripsi="mayasarigarage@gmail.com"
+              judul={t("email.title")}
+              deskripsi={t("email.description")}
             />
             <Card
               variant="simple"
               Icon={IoCallSharp}
-              judul="Hubungi Kami"
-              deskripsi="(+62) 82244087426"
+              judul={t("noTelp.title")}
+              deskripsi={t("noTelp.description")}
             />
           </div>
         </div>
         <div className="flex flex-col items-center justify-center py-6 px-10 lg:px-0">
           <h1 className="text-3xl md:text-4xl font-bold mb-6 mt-12">
-            Lokasi Kami
+            {t("lokasiKami")}
           </h1>
           <div className="w-full lg:w-3/4 xl:w-2/3">
             <Map />
