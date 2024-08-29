@@ -89,7 +89,7 @@ function Navbar() {
               {t("home")}
             </Link>
             <Link
-              to={getLocalizedPath("/produk-kami")}
+              to={getLocalizedPath("/produk")}
               className="text-white hover:text-gray-300"
             >
               {t("produkKami")}
@@ -168,7 +168,7 @@ function Navbar() {
                 {t("home")}
               </Link>
               <Link
-                to={getLocalizedPath("/produk-kami")}
+                to={getLocalizedPath("/produk")}
                 className="block py-2 text-white hover:text-gray-300"
                 onClick={closeMobileMenu}
               >

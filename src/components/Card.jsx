@@ -14,33 +14,42 @@ const Card = ({
   const { t } = useTranslation("card");
   return variant === "detailed" ? (
     // Varian 1: Kartu dengan detail lengkap
-    <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white p-4 border border-gray-200">
+    <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-4 border border-gray-200 flex flex-col justify-between h-full">
       <img
-        className="w-full h-48 object-cover rounded-lg"
+        className="w-full h-48 object-contain rounded"
         src={gambar}
         alt={judul}
       />
-      <div className="px-4 py-4">
-        <div className="font-bold text-lg sm:text-xl md:text-2xl mb-2">
+      <div className="flex-grow px-4 py-4">
+        <div className="font-bold text-md sm:text-lg md:text-xl mb-2">
           {judul}
         </div>
         <ul className="text-gray-700 text-sm sm:text-base list-disc pl-4">
           {details.map((detail, index) => (
             <li key={index}>
-              {detail.label}: {detail.value}
+              {detail.label ? (
+                <>
+                  {detail.label} : {detail.value}
+                </>
+              ) : (
+                detail.value
+              )}
             </li>
           ))}
         </ul>
       </div>
-      <div className="flex gap-2 px-4 justify-between">
-        <div>
-          <h1 className="font-bold text-xl ">Rp. {harga}</h1>
+      <div className="flex gap-2 px-4 justify-between items-center mt-4">
+        <div className="flex flex-col">
+          <p className="text-sm">{t("mulaiDari")}</p>
+          <h1 className="font-bold text-xl">Rp. {harga}</h1>
         </div>
-        <Button
-          href={`https://wa.me/6282244087426?text=Halo%20Anjangsana%20Trip%20PlannerGarage,%20saya%20ingin%20bertanya%20tentang%20berapa%20harga%20penyewaan%20mobil%20${judul}?`}
-        >
-          {t("hubungiKami")}
-        </Button>
+        <div>
+          <Button
+            href={`https://wa.me/6282244087426?text=Halo%20Anjangsana%20Trip%20Planner,%20saya%20ingin%20bertanya%20tentang%20berapa%20harga%20${judul}?`}
+          >
+            {t("hubungiKami")}
+          </Button>
+        </div>
       </div>
     </div>
   ) : (

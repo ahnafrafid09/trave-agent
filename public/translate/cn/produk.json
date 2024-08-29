@@ -2,104 +2,16 @@
   "heading": {
     "title": "我们的产品"
   },
-
-  "katalogMobil": {
-    "title": "租车价格表",
-    "labels": {
-      "tahun": "型号年份",
-      "bahanBakar": "燃料类型",
-      "jenisMobil": "车型",
-      "kapasitas": "容量"
-    },
-    "listMobil": [
-      {
-        "id": 1,
-        "namaMobil": "Toyota All New Avanza",
-        "tahun": "2017-2023",
-        "bahanBakar": "汽油",
-        "jenisMobil": "MPV",
-        "kapasitasPenumpang": "6名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/avanza.png"
-      },
-      {
-        "id": 2,
-        "namaMobil": "Toyota Innova Reborn",
-        "tahun": "2021",
-        "bahanBakar": "Diesel/Dexlite/Pertadex",
-        "jenisMobil": "MPV",
-        "kapasitasPenumpang": "7名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/innova.png"
-      },
-      {
-        "id": 3,
-        "namaMobil": "Toyota Hiace Commuter",
-        "tahun": "2019",
-        "bahanBakar": "Diesel/Dexlite/Pertadex",
-        "jenisMobil": "小巴",
-        "kapasitasPenumpang": "14名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/hiace commuter.png"
-      },
-      {
-        "id": 4,
-        "namaMobil": "Toyota Hiace Premio",
-        "tahun": "2021",
-        "bahanBakar": "Diesel/Dexlite/Pertadex",
-        "jenisMobil": "小巴",
-        "kapasitasPenumpang": "11名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/hiace premio.png"
-      },
-      {
-        "id": 5,
-        "namaMobil": "Toyota Avanza Grand",
-        "tahun": "2021",
-        "bahanBakar": "汽油",
-        "jenisMobil": "MPV",
-        "kapasitasPenumpang": "6名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/avanza grand.jpg"
-      },
-      {
-        "id": 6,
-        "namaMobil": "Toyota Alphard",
-        "tahun": "2021",
-        "bahanBakar": "汽油",
-        "jenisMobil": "MPV",
-        "kapasitasPenumpang": "7名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/alphard.png"
-      },
-      {
-        "id": 7,
-        "namaMobil": "Toyota Fortuner",
-        "tahun": "2021",
-        "bahanBakar": "Diesel/Dexlite/Pertadex",
-        "jenisMobil": "SUV",
-        "kapasitasPenumpang": "7名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/fortuner.png"
-      },
-      {
-        "id": 8,
-        "namaMobil": "Isuzu Giga",
-        "tahun": "2021",
-        "bahanBakar": "Diesel/Dexlite/Pertadex",
-        "jenisMobil": "卡车",
-        "kapasitasPenumpang": "2名乘客",
-        "kapasitasDriver": "1名司机",
-        "harga": 450000,
-        "gambar": "/images/mobil/giga.jpg"
-      }
-    ]
+  "navigasi": {
+    "sewaMobil": "租车",
+    "paketWisata": "旅游套餐",
+    "semua": "所有旅游套餐",
+    "1hari": "1天",
+    "2hari": "2天1夜",
+    "3hari": "3天2夜",
+    "4hari": "4天3夜",
+    "5hari": "5天4夜",
+    "bromo": "所有布罗莫旅游套餐",
+    "travelMalangJuanda": "玛琅-祖安达旅行"
   }
 }

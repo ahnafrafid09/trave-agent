@@ -1,0 +1,2198 @@
+{
+  "paketWisata": {
+    "title": "Tour Package Price List",
+    "label": {
+      "kategori": "Category",
+      "fasilitas": "Facilities",
+      "destinasi": "Destination",
+      "jadwal": "Schedule"
+    },
+    "kategori": {
+      "1D": "1 Day",
+      "2D1N": "2 Days 1 Night",
+      "3D2N": "3 Days 2 Nights",
+      "4D3N": "4 Days 3 Nights",
+      "5D4N": "5 Days 4 Nights",
+      "bromo": "Bromo Tour Package"
+    },
+    "paketBromo": {
+      "title": "Bromo Tour Package Price List",
+      "bromo": "Bromo Tour Package",
+      "kategori": {
+        "openTrip": "Open Trip Bromo",
+        "privateTrip": "Private Trip Bromo",
+        "privateTripDokumentasi": "Private Trip Bromo + Documentation",
+        "privateTripDokumentasiPiknik": "Private Trip Bromo + Documentation + Picnic"
+      },
+      "kategoriJadwal": {
+        "midnight": "Midnight Itinerary",
+        "panorama": "Panorama Itinerary"
+      },
+      "jadwal": {
+        "midnight": {
+          "waktu": "12:00 AM to 4:00 PM",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 AM to 08:00 PM",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "paketBromoDetail": [
+        {
+          "id": 1,
+          "judulPaket": "Open Trip Bromo",
+          "kategoriId": "bromo",
+          "harga": {
+            "1orang": 299000
+          },
+          "destinasi": [
+            "Sunrise Point",
+            "Widodaren Hill",
+            "Bromo Crater",
+            "Whispering Sand Sea",
+            "Savannah",
+            "Teletubbies Hill",
+            "Batok Hill",
+            "Pure Luhur"
+          ],
+          "deskripsi": {
+            "include": [
+              "Tour Transportation Malang - Bromo (Round Trip)",
+              "Documentation with DSLR Camera",
+              "Professional Photographer",
+              "Driver",
+              "Fuel",
+              "Free Parking Fee",
+              "4x4 Hardtop Jeep",
+              "Tour Entrance Ticket (Local)"
+            ],
+            "exclude": ["Special Medicines", "Meals"]
+          },
+          "tourDeskripsi": "A shared trip with other participants, departing daily with no minimum number of participants."
+        },
+        {
+          "id": 2,
+          "destinasi": [
+            "Sunrise Point",
+            "Widodaren Hill",
+            "Bromo Crater",
+            "Whispering Sand Sea",
+            "Savannah",
+            "Teletubbies Hill",
+            "Batok Hill",
+            "Pure Luhur"
+          ],
+          "judulPaket": "Private Trip Bromo",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 699000,
+            "3orang": 499000,
+            "4orang": 375000,
+            "5orang": 299000,
+            "6orang": 250000,
+            "7orang": 250000,
+            "8orang": 250000,
+            "9orang": 250000,
+            "10orang": 250000,
+            "11orang": 250000,
+            "12orang": 250000,
+            "12+Orang": "Contact Us"
+          },
+          "deskripsi": {
+            "include": [
+              "Private Transportation Malang - Bromo (Round Trip)",
+              "Driver",
+              "Fuel",
+              "Free Parking Fee",
+              "First Aid Kit and Mask",
+              "Welcome Drink",
+              "Portable Chair",
+              "4x4 Hardtop Jeep",
+              "Tour Entrance Ticket (Local)"
+            ],
+            "exclude": ["Special Medicines", "Meals"]
+          },
+          "tourDeskripsi": "Private Bromo Package is more comfortable with no other participants (only for groups). Schedule is more flexible (pickup time can be requested), price varies with number of participants, and you can choose between midnight (sunrise) or panorama (sunset)."
+        },
+        {
+          "id": 3,
+          "destinasi": [
+            "Sunrise Point",
+            "Widodaren Hill",
+            "Bromo Crater",
+            "Whispering Sand Sea",
+            "Savannah",
+            "Teletubbies Hill",
+            "Batok Hill",
+            "Pure Luhur"
+          ],
+          "judulPaket": "Private Trip Bromo + Documentation",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 849000,
+            "3orang": 599000,
+            "4orang": 435000,
+            "5orang": 350000,
+            "6orang": 350000,
+            "7orang": 350000,
+            "8orang": 350000,
+            "9orang": 350000,
+            "10orang": 325000,
+            "11orang": 299000,
+            "11+Orang": "Contact Us"
+          },
+          "deskripsi": {
+            "include": [
+              "Private Transportation Malang - Bromo (Round Trip)",
+              "Driver",
+              "Fuel",
+              "Documentation with DSLR Camera",
+              "Professional Photographer",
+              "Free Parking Fee",
+              "First Aid Kit and Mask",
+              "Welcome Drink",
+              "Portable Chair",
+              "4x4 Hardtop Jeep",
+              "Tour Entrance Ticket (Local)"
+            ],
+            "exclude": ["Special Medicines", "Meals"]
+          },
+          "tourDeskripsi": "Private Bromo Package + Documentation is more comfortable with no other participants (only for groups). Schedule is more flexible (pickup time can be requested), price varies with number of participants, and you can choose between midnight (sunrise) or panorama (sunset)."
+        },
+        {
+          "id": 4,
+          "destinasi": [
+            "Sunrise Point",
+            "Widodaren Hill",
+            "Bromo Crater",
+            "Whispering Sand Sea",
+            "Savannah",
+            "Teletubbies Hill",
+            "Batok Hill",
+            "Pure Luhur"
+          ],
+          "judulPaket": "Private Trip Bromo + Documentation + Picnic",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 1170000,
+            "3orang": 799000,
+            "4orang": 625000,
+            "5orang": 520000,
+            "6orang": 499000,
+            "7orang": 499000,
+            "8orang": 499000,
+            "9orang": 499000,
+            "10orang": 475000,
+            "11orang": 429000,
+            "11+Orang": "Contact Us"
+          },
+          "deskripsi": {
+            "include": [
+              "Private Transportation Malang - Bromo (Round Trip)",
+              "Driver",
+              "Fuel",
+              "Meals & Drinks",
+              "Romantic Picnic Bromo",
+              "Decoration",
+              "Documentation with DSLR Camera",
+              "Professional Photographer",
+              "Free Parking Fee",
+              "First Aid Kit and Mask",
+              "Welcome Drink",
+              "Portable Chair",
+              "4x4 Hardtop Jeep",
+              "Tour Entrance Ticket (Local)"
+            ],
+            "exclude": ["Special Medicines"]
+          },
+          "tourDeskripsi": "Exclusive Private Trip service with documentation and Romantic Picnic included with meals and drinks. Not combined with other participants, flexible timing, and menu options available."
+        }
+      ]
+    },
+    "paketWisata1Hari": {
+      "title": "Malang 1 Day Tour Package Price List",
+      "kategoriId": "1D",
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "Tumpak Sewu Waterfall",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Viewpoint",
+            "Tetes Cave",
+            "Kapas Biru Waterfall",
+            "Rainbow Mist Waterfall",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 187000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 375000,
+              "4orang": 299000,
+              "5orang": 250000,
+              "6orang": 219000,
+              "6+Orang": "Contact Us"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 299000,
+              "6orang": 260000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Ticket", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Entrance Ticket",
+                "Driver",
+                "Tour Guide",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Meals"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Entrance Ticket",
+                "Driver",
+                "Tour Guide",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "05:00 AM to 08:00 PM",
+          "catatan": "Tumpak Sewu Waterfall includes a guide to explore until finished."
+        },
+        {
+          "id": 2,
+          "judulPaket": "Malang Batu City Tour Morning Package 1",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Coban Rondo/Selecta/Flora Wisata Area",
+            "Paralayang Gunung Banyak/Pujon Kidul Area",
+            "Strawberry/Pick Apples",
+            "Culinary Tour Alun-Alun Batu",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 699000,
+              "3orang": 499000,
+              "4orang": 414000,
+              "5orang": 370000,
+              "6orang": 299000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Driver",
+                "Fuel",
+                "Welcome Drink",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Ticket", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Entrance Ticket",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "6:00 AM to 12:00 AM",
+          "catatan": "All tour destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+        },
+        {
+          "id": 3,
+          "judulPaket": "Malang Batu City Tour Morning Package 2",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Jatim Park 1/2/3/Angkut Museum",
+            "Paralayang Gunung Banyak/Pujon Kidul/Flora Wisata",
+            "Culinary Tour Alun-Alun Batu",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 710000,
+              "3orang": 544000,
+              "4orang": 460000,
+              "5orang": 410000,
+              "6orang": 379000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Driver",
+                "Fuel",
+                "Welcome Drink",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Ticket", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tour",
+                "Entrance Ticket",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "6:00 AM to 12:00 AM",
+          "catatan": "All tour destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+        },
+        {
+          "id": 4,
+          "judulPaket": "Malang Batu Night City Tour",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Malang Night Paradise/Malang Skyland",
+            "Paralayang Gunung Banyak",
+            "Cafe & Culinary",
+            "Alun-Alun Batu Culinary Tour",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpatTiket": {
+              "2orang": 299000,
+              "3orang": 199000,
+              "4orang": 150000,
+              "5orang": 120000,
+              "6orang": 99000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 375000,
+              "3orang": 275000,
+              "4orang": 225000,
+              "5orang": 199000,
+              "6orang": 177000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Driver",
+                "Fuel",
+                "Welcome Drink",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Tickets", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Entrance Tickets",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "3:00 PM to 11:30 PM",
+          "catatan": "All tourist destinations can be replaced with other attractions in Malang and Batu city according to customer requests."
+        },
+        {
+          "id": 5,
+          "judulPaket": "South Malang Beach Tour",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Asmoro Bay Beach",
+            "Balekambang Beach / Batu Bengkung Beach",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 450000,
+              "3orang": 320000,
+              "4orang": 260000,
+              "5orang": 220000,
+              "6orang": 199000,
+              "6+Orang": "Contact Us"
+            },
+            "tiketPhoto": {
+              "2orang": 599000,
+              "3orang": 420000,
+              "4orang": 340000,
+              "5orang": 280000,
+              "6orang": 250000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Vehicle",
+                "Tourism",
+                "Driver",
+                "Fuel",
+                "Welcome Drink",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Tickets", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Entrance Tickets",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Meals"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Entrance Tickets",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "06:00 AM to 08:00 PM",
+          "catatan": "All tourist destinations can be replaced with other beach tours according to customer requests."
+        },
+        {
+          "id": 6,
+          "judulPaket": "3 Color Beach Tour",
+          "kategoriId": "1D",
+          "destinasi": [
+            "3 Color Beach",
+            "Gatra Beach",
+            "Clungup Beach",
+            "Souvenir Center"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Contact Us"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 337000,
+              "4orang": 270000,
+              "5orang": 225000,
+              "6orang": 199000,
+              "6+Orang": "Contact Us"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 310000,
+              "6orang": 275000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Vehicle",
+                "Tourism",
+                "Driver",
+                "Fuel",
+                "Welcome Drink",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Entrance Tickets", "Meals"]
+            },
+            "tiket": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Entrance Tickets",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Boat / Snorkeling Equipment",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Meals"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Private Vehicle",
+                "Tourism",
+                "Entrance Tickets",
+                "Driver",
+                "Fuel",
+                "Free Parking Fee",
+                "First Aid Kit and Mask",
+                "Boat",
+                "Snorkeling Equipment",
+                "Life Jacket",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Meals"]
+            }
+          },
+          "jadwal": "05:00 AM to 08:00 PM",
+          "catatan": "All tourist destinations can be replaced with other beach tours according to customer requests."
+        }
+      ]
+    },
+    "paketWisata2Hari": {
+      "title": "2 Days 1 Night Tour Package Price List",
+      "kategoriId": "2D1N",
+      "kategoriJadwalBromo": {
+        "midnight": "Midnight Itinerary",
+        "panorama": "Panorama Itinerary"
+      },
+      "jadwalBromo": {
+        "midnight": {
+          "waktu": "12:00 AM to 4:00 PM",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 AM to 08:00 PM",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "Gunung Bromo & City Tour Malang Batu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Culinary Tour at Alun-Alun Batu",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other attractions throughout Malang and Batu City based on customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savannah Plain",
+                "Teletubbies Hill",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight or Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 950000,
+              "2orang": 625000,
+              "3orang": 515000,
+              "4orang": 462000,
+              "5orang": 429000,
+              "6orang": 407000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive1": {
+              "1orang": 2250000,
+              "2orang": 1275000,
+              "3orang": 1035000,
+              "4orang": 970000,
+              "5orang": 950000,
+              "6orang": 920000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive2": {
+              "1orang": 3110000,
+              "2orang": 1670000,
+              "3orang": 1270000,
+              "4orang": 1070000,
+              "5orang": 950000,
+              "6orang": 950000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Tourist Transportation (2 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Tourist Transportation (2 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Private Tourist Transportation (2 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Hotel Breakfast",
+                "Tourist Entrance Tickets",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "judulPaket": "City Tour Malang & Batu 2 Days 1 Night",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Apple Picking Educational Tour",
+                "Culinary Tour at Alun-Alun Batu",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other attractions throughout Malang and Batu City based on customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul / Paralayang Gunung Banyak",
+                "Coban Rondo Area / Flora Wisata San Terra",
+                "Souvenir Center"
+              ],
+              "jadwal": "06:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other attractions throughout Malang and Batu City based on customer request."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1300000,
+              "2orang": 650000,
+              "3orang": 450000,
+              "4orang": 325000,
+              "5orang": 260000,
+              "6orang": 217000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 2720000,
+              "2orang": 1470000,
+              "3orang": 1150000,
+              "4orang": 962000,
+              "5orang": 862000,
+              "6orang": 799000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (2 Days)",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (2 Days)",
+                "Travel Photography / Bromo Photographer",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "judulPaket": "City Tour Malang Batu & Tumpak Sewu Waterfall",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Culinary Tour at Alun-Alun Batu",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other attractions throughout Malang and Batu City based on customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Kapas Biru Waterfall / Rainbow Mist Waterfall"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide for exploration until completion"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 350000,
+              "6orang": 283000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 2700000,
+              "2orang": 1499000,
+              "3orang": 1150000,
+              "4orang": 985000,
+              "5orang": 890000,
+              "6orang": 850000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (2 Days)",
+                "Welcome Drink",
+                "1 Day Travel Photography (Free Choice)",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (2 Days)",
+                "1 Day Travel Photography (Free Choice)",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "judulPaket": "3 Color Beach & Mount Bromo Tour",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3 Color Beach",
+                "Gatra Beach",
+                "Clungup Beach",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations according to customer requests."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Widodaren Hill",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose between Midnight and Panorama."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive1": {
+              "1orang": 1900000,
+              "2orang": 1199000,
+              "3orang": 985000,
+              "4orang": 875000,
+              "5orang": 830000,
+              "6orang": 825000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive2": {
+              "1orang": 3400000,
+              "2orang": 1700000,
+              "3orang": 1200000,
+              "4orang": 975000,
+              "5orang": 840000,
+              "6orang": 840000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "Welcome Drink",
+                "1 Day Travel Photography (Optional)",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "1 Day Travel Photography",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Entrance Tickets",
+                "Boat/Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "1 Day Travel Photography",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Entrance Tickets",
+                "Boat/Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "judulPaket": "Mount Bromo & Tumpak Sewu Waterfall",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Viewpoint",
+                "Tetes Cave",
+                "Kapas Biru Waterfall / Kabut Pelangi Waterfall"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide throughout the exploration."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Widodaren Hill",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose between Midnight and Panorama."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive1": {
+              "1orang": 1800000,
+              "2orang": 1075000,
+              "3orang": 990000,
+              "4orang": 840000,
+              "5orang": 790000,
+              "6orang": 770000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive2": {
+              "1orang": 3300000,
+              "2orang": 1700000,
+              "3orang": 1250000,
+              "4orang": 975000,
+              "5orang": 850000,
+              "6orang": 850000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "Welcome Drink",
+                "1 Day Travel Photography",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "1 Day Travel Photography",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Entrance Tickets",
+                "Boat/Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "1 Day Travel Photography",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Entrance Tickets",
+                "Boat/Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "judulPaket": "3 Color Beach & City Tour Malang Batu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Flora Wisata San Terra / Cafe Sawah / Paralayang",
+                "Batu City Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other tourist spots in Malang and Batu city according to customer requests."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "3 Color Beach",
+                "Gatra Beach",
+                "Clungup Beach",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations according to customer requests."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 340000,
+              "6orang": 290000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1650000,
+              "3orang": 1250000,
+              "4orang": 1050000,
+              "5orang": 950000,
+              "6orang": 871000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "Welcome Drink",
+                "Travel Photography / Beach / City Tour Photographer",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tour Transportation (2 Days)",
+                "Travel Photography / Beach / City Tour Photographer",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Boat/Snorkeling Equipment",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata3Hari": {
+      "title": "3 Days 2 Nights Tour Package Price List",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "kategoriId": "3D2N",
+          "judulPaket": "City Tour Malang & Batu 3 Days 2 Nights",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "Batu Night Spectacular",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Museum Angkut & Floating Market",
+                "Paralayang Gunung Banyak",
+                "Omah Kayu / Taman Langit",
+                "Souvenir Center"
+              ],
+              "jadwal": "06:00 AM to 08:00 PM",
+              "catatan": "All destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo Area / Flora Wisata San Terra",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 2250000,
+              "2orang": 1125000,
+              "3orang": 750000,
+              "4orang": 562000,
+              "5orang": 450000,
+              "6orang": 375000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 3950000,
+              "2orang": 2200000,
+              "3orang": 1817000,
+              "4orang": 1625000,
+              "5orang": 1509000,
+              "6orang": 1450000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tour Transportation (3 Days)",
+                "1 Day Travel Photography (Flexible)",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tour Transportation (3 Days)",
+                "1 Day Travel Photography (Flexible)",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "kategoriId": "3D2N",
+          "judulPaket": "Mount Bromo & City Tour Malang & Batu 3 Days 2 Nights",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Apple Picking / Paralayang Gunung Banyak",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savana Grassland",
+                "Teletubbies Hill",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight and Panorama"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo Area / Flora Wisata San Terra",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All destinations can be replaced with other attractions in Malang and Batu City upon customer request."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3050000,
+              "2orang": 1525000,
+              "3orang": 1015000,
+              "4orang": 762000,
+              "5orang": 615000,
+              "6orang": 615000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1999000,
+              "3orang": 1715000,
+              "4orang": 1549000,
+              "5orang": 1499000,
+              "6orang": 1499000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tour Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Hardtop 4x4 Jeep",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tour Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Hardtop 4x4 Jeep",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Masks",
+                "Portable Chairs",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "3D2N",
+          "judulPaket": "Mount Bromo & Tumpak Sewu Waterfall & 3 Colors Beach",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Beach 3 Colors",
+                "Beach Gatra",
+                "Beach Clungup",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach tours upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Kapas Biru Waterfall / Rainbow Mist Waterfall"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide for exploration until completion."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna",
+                "Teletubbies Hill",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose between Midnight and Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3250000,
+              "2orang": 1625000,
+              "3orang": 1081000,
+              "4orang": 812000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive1": {
+              "1orang": 3499000,
+              "2orang": 2275000,
+              "3orang": 1799000,
+              "4orang": 1575000,
+              "5orang": 1455000,
+              "6orang": 1455000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive2": {
+              "1orang": 4999000,
+              "2orang": 2775000,
+              "3orang": 2040000,
+              "4orang": 1675000,
+              "5orang": 1450000,
+              "6orang": 1450000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Boat / Snorkeling Equipment",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Private Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "kategoriId": "3D2N",
+          "judulPaket": "Mount Bromo & City Tour of Malang and Batu & 3 Colors Beach",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Beach 3 Colors",
+                "Beach Gatra",
+                "Beach Clungup",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach tours upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Paralayang Gunung Banyak",
+                "Flora Wisata San Terra",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other tours throughout Malang and Batu City as per customer request."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna",
+                "Teletubbies Hill",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose between Midnight and Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3150000,
+              "2orang": 1575000,
+              "3orang": 1050000,
+              "4orang": 791000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive1": {
+              "1orang": 3299000,
+              "2orang": 2299000,
+              "3orang": 1877000,
+              "4orang": 1677000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive2": {
+              "1orang": 4710000,
+              "2orang": 2799000,
+              "3orang": 2110000,
+              "4orang": 1780000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tour Guide",
+                "Boat / Snorkeling Equipment",
+                "Tourist Entrance Tickets",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Private Tourism Transportation (3 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Jeep Hardtop 4x4",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata4Hari": {
+      "title": "4 Days 3 Nights Tour Package Price List",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "kategoriId": "4D3N",
+          "judulPaket": "City Tour Malang and Batu & Mount Bromo & Tumpak Sewu Waterfall & 3 Colors Beach",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3 Colors Beach",
+                "Gatra Beach",
+                "Clungup Beach",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Kapas Biru Waterfall / Rainbow Mist Waterfall"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide for complete exploration."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Paralayang Gunung Banyak",
+                "San Terra Flora Tourism",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request."
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna Plain",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight or Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3900000,
+              "2orang": 1950000,
+              "3orang": 1300000,
+              "4orang": 975000,
+              "5orang": 780000,
+              "6orang": 760000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 5795000,
+              "2orang": 3705000,
+              "3orang": 2999000,
+              "4orang": 2515000,
+              "5orang": 2225000,
+              "6orang": 1999000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "4x4 Hardtop Jeep",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Tour Guide",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "kategoriId": "4D3N",
+          "judulPaket": "Mount Bromo & City Tour Malang and Batu & 3 Colors Beach 4 Days 3 Nights",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3 Colors Beach",
+                "Gatra Beach",
+                "Clungup Beach",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Paralayang Gunung Banyak",
+                "San Terra Flora Tourism",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna Plain",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight or Panorama"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo Area / San Terra Flora Tourism",
+                "Souvenir Center"
+              ],
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request.",
+              "jadwal": "05:00 AM to 09:00 PM"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3800000,
+              "2orang": 1900000,
+              "3orang": 1279000,
+              "4orang": 950000,
+              "5orang": 760000,
+              "6orang": 741000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 5995000,
+              "2orang": 3500000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 1975000,
+              "6orang": 1975000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "4x4 Hardtop Jeep",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Tour Guide",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "4D3N",
+          "judulPaket": "Mount Bromo & City Tour Malang & Batu 4 Days 3 Nights",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "Batu Night Spectaculer",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Angkut Museum & Floating Market",
+                "Paralayang Gunung Banyak",
+                "Omah Kayu / Taman Langit",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide for complete exploration."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna Plain",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight or Panorama"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo Area / San Terra Flora Tourism",
+                "Souvenir Center"
+              ],
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request.",
+              "jadwal": "05:00 AM to 09:00 PM"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3750000,
+              "2orang": 1900000,
+              "3orang": 1230000,
+              "4orang": 950000,
+              "5orang": 750000,
+              "6orang": 741000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 6000000,
+              "2orang": 3800000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 2200000,
+              "6orang": 1999000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (4 Days)",
+                "Travel Photography / Bromo Photographer",
+                "4x4 Hardtop Jeep",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Tour Guide",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata5Hari": {
+      "title": "5 Days 4 Nights Tour Package Price List",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "kategoriId": "5D4N",
+          "judulPaket": "Malang & Batu City Tour & Mount Bromo & Tumpak Sewa Waterfall & 3 Colors Beach",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3 Colors Beach",
+                "Gatra Beach",
+                "Clungup Beach",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other beach destinations upon customer request."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Kapas Biru Waterfall / Rainbow Mist Waterfall"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "Tumpak Sewu Waterfall includes a guide for complete exploration."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut Museum",
+                "Paralayang Gunung Banyak",
+                "San Terra Flora Tourism",
+                "Alun-Alun Batu Culinary Tour",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 08:00 PM",
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request."
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Bromo Crater",
+                "Whispering Sand Sea",
+                "Savanna Plain",
+                "Teletubbies Hill",
+                "Batok Hill",
+                "Pure Luhur"
+              ],
+              "catatan": "Bromo schedule can choose Midnight or Panorama"
+            },
+            "hariKelima": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo Area / San Terra Flora Tourism",
+                "Souvenir Center"
+              ],
+              "jadwal": "05:00 AM to 09:00 PM",
+              "catatan": "All tourist destinations can be replaced with other destinations throughout Malang and Batu upon customer request."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 4700000,
+              "2orang": 2350000,
+              "3orang": 1560000,
+              "4orang": 1175000,
+              "5orang": 940000,
+              "6orang": 900000,
+              "6+Orang": "Contact Us"
+            },
+            "paketExclusive": {
+              "1orang": 6500000,
+              "2orang": 4300000,
+              "3orang": 3400000,
+              "4orang": 2700000,
+              "5orang": 2500000,
+              "6orang": 2200000,
+              "6+Orang": "Contact Us"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Private Tourist Transportation (5 Days)",
+                "Travel Photography / Bromo Photographer",
+                "Welcome Drink",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": [
+                "Personal Expenses",
+                "Accommodation",
+                "Tourist Entrance Tickets",
+                "Meals"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Private Tourist Transportation (5 Days)",
+                "Travel Photography / Bromo Photographer",
+                "4x4 Hardtop Jeep",
+                "2/3 Star Hotel or Villa",
+                "Tourist Entrance Tickets",
+                "Boat / Snorkeling Equipment",
+                "Tour Guide",
+                "Hotel Breakfast",
+                "Fuel",
+                "Driver",
+                "Parking Fees",
+                "First Aid Kit and Mask",
+                "Portable Chair",
+                "Hammock"
+              ],
+              "exclude": ["Personal Expenses", "Meals"]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
