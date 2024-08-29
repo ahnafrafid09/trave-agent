@@ -1,0 +1,2105 @@
+{
+  "paketWisata": {
+    "title": "旅游套餐价格表",
+    "label": {
+      "kategori": "类别",
+      "fasilitas": "设施",
+      "destinasi": "目的地",
+      "jadwal": "时间表"
+    },
+    "kategori": {
+      "1D": "1天",
+      "2D1N": "2天1夜",
+      "3D2N": "3天2夜",
+      "4D3N": "4天3夜",
+      "5D4N": "5天4夜",
+      "bromo": "布罗莫旅游套餐"
+    },
+    "paketBromo": {
+      "title": "布罗莫旅游套餐价格表",
+      "bromo": "布罗莫旅游套餐",
+      "kategori": {
+        "openTrip": "开放行程布罗莫",
+        "privateTrip": "私人行程布罗莫",
+        "privateTripDokumentasi": "私人行程布罗莫 + 文档",
+        "privateTripDokumentasiPiknik": "私人行程布罗莫 + 文档 + 野餐"
+      },
+      "kategoriJadwal": {
+        "midnight": "午夜行程",
+        "panorama": "全景行程"
+      },
+      "jadwal": {
+        "midnight": {
+          "waktu": "00:00 WIB 到 16:00 WIB",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 WIB 到 20:00 WIB",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "paketBromoDetail": [
+        {
+          "id": 1,
+          "judulPaket": "开放行程布罗莫",
+          "kategoriId": "bromo",
+          "destinasi": [
+            "日出点",
+            "维多达伦山",
+            "布罗莫火山口",
+            "低语沙海",
+            "草原",
+            "天线宝宝山",
+            "巴托克山",
+            "普拉露赫"
+          ],
+          "harga": {
+            "1orang": 299000
+          },
+          "deskripsi": {
+            "include": [
+              "马朗 - 布罗莫的旅游交通（往返）",
+              "使用DSLR相机的文档",
+              "专业摄影师",
+              "司机",
+              "燃料",
+              "免费停车费",
+              "4x4硬顶吉普车",
+              "旅游门票（本地）"
+            ],
+            "exclude": ["特殊药物", "餐食"]
+          },
+          "tourDeskripsi": "与其他参与者共享的行程，每天出发，无最小参与人数要求。"
+        },
+        {
+          "id": 2,
+          "judulPaket": "私人行程布罗莫",
+          "kategoriId": "bromo",
+          "destinasi": [
+            "日出点",
+            "维多达伦山",
+            "布罗莫火山口",
+            "低语沙海",
+            "草原",
+            "天线宝宝山",
+            "巴托克山",
+            "普拉露赫"
+          ],
+          "harga": {
+            "2orang": 699000,
+            "3orang": 499000,
+            "4orang": 375000,
+            "5orang": 299000,
+            "6orang": 250000,
+            "7orang": 250000,
+            "8orang": 250000,
+            "9orang": 250000,
+            "10orang": 250000,
+            "11orang": 250000,
+            "12orang": 250000,
+            "12+Orang": "联系我们"
+          },
+          "deskripsi": {
+            "include": [
+              "马朗 - 布罗莫的私人交通（往返）",
+              "司机",
+              "燃料",
+              "免费停车费",
+              "急救包和口罩",
+              "欢迎饮品",
+              "便携椅",
+              "4x4硬顶吉普车",
+              "旅游门票（本地）"
+            ],
+            "exclude": ["特殊药物", "餐食"]
+          },
+          "tourDeskripsi": "私人布罗莫套餐更舒适，没有其他参与者（仅限团体）。时间表更灵活（接送时间可请求），价格根据参与人数调整，可选择午夜（日出）或全景（落日）。"
+        },
+        {
+          "id": 3,
+          "destinasi": [
+            "日出点",
+            "维多达伦山",
+            "布罗莫火山口",
+            "低语沙海",
+            "草原",
+            "天线宝宝山",
+            "巴托克山",
+            "普拉露赫"
+          ],
+          "judulPaket": "私人行程布罗莫 + 文档",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 849000,
+            "3orang": 599000,
+            "4orang": 435000,
+            "5orang": 350000,
+            "6orang": 350000,
+            "7orang": 350000,
+            "8orang": 350000,
+            "9orang": 350000,
+            "10orang": 325000,
+            "11orang": 299000,
+            "11+Orang": "联系我们"
+          },
+          "deskripsi": {
+            "include": [
+              "马朗 - 布罗莫的私人交通（往返）",
+              "司机",
+              "燃料",
+              "使用DSLR相机的文档",
+              "专业摄影师",
+              "免费停车费",
+              "急救包和口罩",
+              "欢迎饮品",
+              "便携椅",
+              "4x4硬顶吉普车",
+              "旅游门票（本地）"
+            ],
+            "exclude": ["特殊药物", "餐食"]
+          },
+          "tourDeskripsi": "私人布罗莫套餐 + 文档更舒适，没有其他参与者（仅限团体）。时间表更灵活（接送时间可请求），价格根据参与人数调整，可选择午夜（日出）或全景（落日）。"
+        },
+        {
+          "id": 4,
+          "destinasi": [
+            "日出点",
+            "维多达伦山",
+            "布罗莫火山口",
+            "低语沙海",
+            "草原",
+            "天线宝宝山",
+            "巴托克山",
+            "普拉露赫"
+          ],
+          "judulPaket": "私人行程布罗莫 + 文档 + 野餐",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 1170000,
+            "3orang": 799000,
+            "4orang": 625000,
+            "5orang": 520000,
+            "6orang": 499000,
+            "7orang": 499000,
+            "8orang": 499000,
+            "9orang": 499000,
+            "10orang": 475000,
+            "11orang": 429000,
+            "11+Orang": "联系我们"
+          },
+          "deskripsi": {
+            "include": [
+              "马朗 - 布罗莫的私人交通（往返）",
+              "司机",
+              "燃料",
+              "餐饮",
+              "浪漫野餐布罗莫",
+              "装饰",
+              "使用DSLR相机的文档",
+              "专业摄影师",
+              "免费停车费",
+              "急救包和口罩",
+              "欢迎饮品",
+              "便携椅",
+              "4x4硬顶吉普车",
+              "旅游门票（本地）"
+            ],
+            "exclude": ["特殊药物"]
+          },
+          "tourDeskripsi": "独特的私人行程服务，包括文档和浪漫野餐，已包括餐饮和饮料。不与其他参与者共享，时间灵活，可选择菜单。"
+        }
+      ]
+    },
+    "paketWisata1Hari": {
+      "title": "马朗1日游套餐价格清单",
+      "kategoriId": "1D",
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "通帕克塞乌瀑布",
+          "kategoriId": "1D",
+          "destinasi": [
+            "观景台",
+            "滴水洞",
+            "卡帕斯比鲁瀑布",
+            "彩虹雾瀑布",
+            "纪念品中心"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 187000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "联系我们"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 375000,
+              "4orang": 299000,
+              "5orang": 250000,
+              "6orang": 219000,
+              "6+Orang": "联系我们"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 299000,
+              "6orang": 260000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "导游",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["餐饮"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "导游",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "05:00 WIB 到 20:00 WIB",
+          "catatan": "通帕克塞乌瀑布包括一个导游，直到完成游览。"
+        },
+        {
+          "id": 2,
+          "judulPaket": "马朗巴图城市游早晨套餐1",
+          "kategoriId": "1D",
+          "destinasi": [
+            "科班隆多/塞尔克塔/弗洛拉旅游区",
+            "高山滑翔/普荣基杜区",
+            "草莓/苹果采摘",
+            "阿伦阿伦巴图美食游",
+            "纪念品中心"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "联系我们"
+            },
+            "tiket": {
+              "2orang": 699000,
+              "3orang": 499000,
+              "4orang": 414000,
+              "5orang": 370000,
+              "6orang": 299000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "欢迎饮料",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "06:00 WIB 到 00:00 WIB",
+          "catatan": "所有旅游目的地可以根据客户要求更换为马朗和巴图市的其他景点。"
+        },
+        {
+          "id": 3,
+          "judulPaket": "马朗巴图城市游早晨套餐2",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Jatim Park 1/2/3/运输博物馆",
+            "高山滑翔/普荣基杜区/弗洛拉旅游区",
+            "阿伦阿伦巴图美食游",
+            "纪念品中心"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "联系我们"
+            },
+            "tiket": {
+              "2orang": 710000,
+              "3orang": 544000,
+              "4orang": 460000,
+              "5orang": 410000,
+              "6orang": 379000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "欢迎饮料",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "06:00 WIB 到 00:00 WIB",
+          "catatan": "所有旅游目的地可以根据客户要求更换为马朗和巴图市的其他景点。"
+        },
+        {
+          "id": 4,
+          "judulPaket": "马朗巴图夜游",
+          "kategoriId": "1D",
+          "destinasi": [
+            "马朗夜景天堂/马朗天空之地",
+            "高山滑翔",
+            "咖啡馆与美食",
+            "阿伦阿伦巴图美食游",
+            "纪念品中心"
+          ],
+          "harga": {
+            "2orang": 299000,
+            "3orang": 199000,
+            "4orang": 150000,
+            "5orang": 120000,
+            "6orang": 99000,
+            "6+Orang": "联系我们"
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "欢迎饮料",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "harga": {
+                "2orang": 375000,
+                "3orang": 275000,
+                "4orang": 225000,
+                "5orang": 199000,
+                "6orang": 177000,
+                "6+Orang": "联系我们"
+              },
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "15:00 WIB 到 23:30 WIB",
+          "catatan": "所有旅游目的地可以根据客户要求更换为马朗和巴图市的其他景点。"
+        },
+        {
+          "id": 5,
+          "judulPaket": "南马朗海滩游",
+          "kategoriId": "1D",
+          "destinasi": [
+            "阿斯莫罗湾海滩",
+            "巴勒坎邦海滩/巴图本昆海滩",
+            "纪念品中心"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "联系我们"
+            },
+            "tiket": {
+              "2orang": 450000,
+              "3orang": 320000,
+              "4orang": 260000,
+              "5orang": 220000,
+              "6orang": 199000,
+              "6+Orang": "联系我们"
+            },
+            "tiketPhoto": {
+              "2orang": 599000,
+              "3orang": 420000,
+              "4orang": 340000,
+              "5orang": 280000,
+              "6orang": 250000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "欢迎饮料",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["餐饮"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "06:00 WIB 到 20:00 WIB",
+          "catatan": "所有旅游目的地可以根据客户要求更换为其他海滩游。"
+        },
+        {
+          "id": 6,
+          "judulPaket": "三色海滩游",
+          "kategoriId": "1D",
+          "destinasi": ["三色海滩", "加特拉海滩", "克隆戈普海滩", "纪念品中心"],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "联系我们"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 337000,
+              "4orang": 270000,
+              "5orang": 225000,
+              "6orang": 199000,
+              "6+Orang": "联系我们"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 310000,
+              "6orang": 275000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "车辆",
+                "旅游",
+                "司机",
+                "燃油",
+                "欢迎饮料",
+                "免费停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["景点门票", "餐饮"]
+            },
+            "tiket": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "船只/浮潜设备",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["餐饮"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "私人车辆",
+                "旅游",
+                "景点门票",
+                "司机",
+                "燃油",
+                "免费停车费",
+                "急救包和口罩",
+                "船只",
+                "浮潜设备",
+                "救生衣",
+                "吊床",
+                "旅行摄影"
+              ],
+              "exclude": ["餐饮"]
+            }
+          },
+          "jadwal": "05:00 WIB 到 20:00 WIB",
+          "catatan": "所有旅游目的地可以根据客户要求更换为其他海滩游。"
+        }
+      ]
+    },
+    "paketWisata2Hari": {
+      "title": "2天1夜旅游套餐价格列表",
+      "kategoriId": "2D1N",
+      "kategoriJadwalBromo": {
+        "midnight": "午夜行程",
+        "panorama": "全景行程"
+      },
+      "jadwalBromo": {
+        "midnight": {
+          "waktu": "00:00 WIB 至 16:00 WIB",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 WIB 至 20:00 WIB",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "Bromo火山 & 马朗市区游",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut博物馆",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Alun-Alun Batu美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求替换为马朗和巴图市区的其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "日出点",
+                "Widodaren山",
+                "Bromo火山口",
+                "低语沙海",
+                "草原平原",
+                "天线宝宝山",
+                "Batok山",
+                "Luhur神庙"
+              ],
+              "catatan": "Bromo行程可以选择午夜或全景"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 950000,
+              "2orang": 625000,
+              "3orang": 515000,
+              "4orang": 462000,
+              "5orang": 429000,
+              "6orang": 407000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive1": {
+              "1orang": 2250000,
+              "2orang": 1275000,
+              "3orang": 1035000,
+              "4orang": 970000,
+              "5orang": 950000,
+              "6orang": 920000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive2": {
+              "1orang": 3110000,
+              "2orang": 1670000,
+              "3orang": 1270000,
+              "4orang": 1070000,
+              "5orang": 950000,
+              "6orang": 950000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "旅游交通（2天）",
+                "旅游摄影 / Bromo摄影师",
+                "硬顶越野车4x4",
+                "欢迎饮料",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive1": {
+              "include": [
+                "旅游交通（2天）",
+                "旅游摄影 / Bromo摄影师",
+                "硬顶越野车4x4",
+                "2/3星酒店或别墅",
+                "导游",
+                "景点门票",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "私人旅游交通（2天）",
+                "旅游摄影 / Bromo摄影师",
+                "硬顶越野车4x4",
+                "2/3星酒店或别墅",
+                "导游",
+                "酒店早餐",
+                "景点门票",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "judulPaket": "马朗市区游 & Batu 2天1夜",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut博物馆",
+                "苹果采摘教育游",
+                "Alun-Alun Batu美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求替换为马朗和巴图市区的其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul / Paralayang Gunung Banyak",
+                "Coban Rondo区域 / Flora Wisata San Terra",
+                "纪念品中心"
+              ],
+              "jadwal": "06:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求替换为马朗和巴图市区的其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1300000,
+              "2orang": 650000,
+              "3orang": 450000,
+              "4orang": 325000,
+              "5orang": 260000,
+              "6orang": 217000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 2720000,
+              "2orang": 1470000,
+              "3orang": 1150000,
+              "4orang": 962000,
+              "5orang": 862000,
+              "6orang": 799000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（2天）",
+                "欢迎饮料",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（2天）",
+                "旅游摄影 / Bromo摄影师",
+                "2/3星酒店或别墅",
+                "导游",
+                "景点门票",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "judulPaket": "马朗巴图市区游 & Tumpak Sewu瀑布",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Angkut博物馆",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Alun-Alun Batu美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求替换为马朗和巴图市区的其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Kapas Biru瀑布 / Kabut Pelangi瀑布"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "Tumpak Sewu瀑布包括了导游全程陪同"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 350000,
+              "6orang": 283000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 2700000,
+              "2orang": 1499000,
+              "3orang": 1150000,
+              "4orang": 985000,
+              "5orang": 890000,
+              "6orang": 850000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（2天）",
+                "欢迎饮料",
+                "1天旅游摄影（自由选择）",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（2天）",
+                "1天旅游摄影（自由选择）",
+                "2/3星酒店或别墅",
+                "导游",
+                "景点门票",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费用",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "judulPaket": "三色海滩与布罗莫山之旅",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "三色海滩",
+                "加特拉海滩",
+                "克伦古普海滩",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他海滩景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "日出点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "耳语沙海",
+                "草原",
+                "天线宝宝山",
+                "巴托山",
+                "普尔卢赫"
+              ],
+              "catatan": "布罗莫日程可以选择午夜和全景。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive1": {
+              "1orang": 1900000,
+              "2orang": 1199000,
+              "3orang": 985000,
+              "4orang": 875000,
+              "5orang": 830000,
+              "6orang": 825000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive2": {
+              "1orang": 3400000,
+              "2orang": 1700000,
+              "3orang": 1200000,
+              "4orang": 975000,
+              "5orang": 840000,
+              "6orang": 840000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（2天）",
+                "迎宾饮品",
+                "一天旅行摄影（可选）",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "门票", "餐饮"]
+            },
+            "paketExclusive1": {
+              "include": [
+                "私人旅游交通（2天）",
+                "一天旅行摄影",
+                "2/3星酒店或别墅",
+                "导游",
+                "门票",
+                "船只/浮潜设备",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "私人旅游交通（2天）",
+                "一天旅行摄影",
+                "2/3星酒店或别墅",
+                "导游",
+                "门票",
+                "船只/浮潜设备",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "judulPaket": "布罗莫山与通帕克塞伍瀑布",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": ["观景台", "特特斯洞", "卡帕斯比鲁瀑布/彩虹雾瀑布"],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "通帕克塞伍瀑布包含一位导游陪同游览。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "日出点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "耳语沙海",
+                "草原",
+                "天线宝宝山",
+                "巴托山",
+                "普尔卢赫"
+              ],
+              "catatan": "布罗莫日程可以选择午夜和全景。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive1": {
+              "1orang": 1800000,
+              "2orang": 1075000,
+              "3orang": 990000,
+              "4orang": 840000,
+              "5orang": 790000,
+              "6orang": 770000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive2": {
+              "1orang": 3300000,
+              "2orang": 1700000,
+              "3orang": 1250000,
+              "4orang": 975000,
+              "5orang": 850000,
+              "6orang": 850000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（2天）",
+                "迎宾饮品",
+                "一天旅行摄影",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "门票", "餐饮"]
+            },
+            "paketExclusive1": {
+              "include": [
+                "私人旅游交通（2天）",
+                "一天旅行摄影",
+                "2/3星酒店或别墅",
+                "导游",
+                "门票",
+                "船只/浮潜设备",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "私人旅游交通（2天）",
+                "一天旅行摄影",
+                "2/3星酒店或别墅",
+                "导游",
+                "门票",
+                "船只/浮潜设备",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "judulPaket": "三色海滩与马朗巴图城市之旅",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "贾廷公园1/2/3 / 运输博物馆",
+                "圣特拉花卉旅游 / 水田咖啡 / 滑翔伞",
+                "巴图市美食游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他旅游景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "三色海滩",
+                "加特拉海滩",
+                "克伦古普海滩",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他海滩景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 340000,
+              "6orang": 290000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1650000,
+              "3orang": 1250000,
+              "4orang": 1050000,
+              "5orang": 950000,
+              "6orang": 871000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（2天）",
+                "迎宾饮品",
+                "一天旅行摄影",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "门票", "餐饮"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（2天）",
+                "一天旅行摄影",
+                "2/3星酒店或别墅",
+                "导游",
+                "门票",
+                "酒店早餐",
+                "燃油",
+                "船只/浮潜设备",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata3Hari": {
+      "title": "3天2晚旅游套餐价格清单",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "马朗和巴图城市之旅 3天2晚",
+          "kategoriId": "3D2N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "Batu Night Spectacular",
+                "阿伦-阿伦巴图美食游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "运河博物馆 & 浮动市场",
+                "Paralayang Gunung Banyak",
+                "Omah Kayu / Taman Langit",
+                "纪念品中心"
+              ],
+              "jadwal": "06:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他景点。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo 区域 / Flora Wisata San Terra",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 2250000,
+              "2orang": 1125000,
+              "3orang": 750000,
+              "4orang": 562000,
+              "5orang": 450000,
+              "6orang": 375000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 3950000,
+              "2orang": 2200000,
+              "3orang": 1817000,
+              "4orang": 1625000,
+              "5orang": 1509000,
+              "6orang": 1450000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（3天）",
+                "一天旅行摄影（自由选择）",
+                "欢迎饮品",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（3天）",
+                "一天旅行摄影（自由选择）",
+                "2/3星级酒店或别墅",
+                "景点门票",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "kategoriId": "3D2N",
+          "judulPaket": "布罗莫山 & 马朗和巴图城市之旅 3天2晚",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / 运河博物馆",
+                "苹果采摘 / Paralayang Gunung Banyak",
+                "阿伦-阿伦巴图美食游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "日出点",
+                "Bukit Widodaren",
+                "布罗莫火山口",
+                "耳语沙海",
+                "萨瓦纳草原",
+                "天线宝宝山",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "布罗莫行程可以选择午夜和全景"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Coban Rondo 区域 / Flora Wisata San Terra",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图市的其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3050000,
+              "2orang": 1525000,
+              "3orang": 1015000,
+              "4orang": 762000,
+              "5orang": 615000,
+              "6orang": 615000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1999000,
+              "3orang": 1715000,
+              "4orang": 1549000,
+              "5orang": 1499000,
+              "6orang": 1499000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（3天）",
+                "旅行摄影 / 布罗莫摄影师",
+                "硬顶4x4吉普车",
+                "欢迎饮品",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（3天）",
+                "旅行摄影 / 布罗莫摄影师",
+                "硬顶4x4吉普车",
+                "2/3星级酒店或别墅",
+                "景点门票",
+                "酒店早餐",
+                "燃油",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "3D2N",
+          "judulPaket": "布罗莫山 & 通帕克瑟武瀑布 & 三色海滩",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "三色海滩",
+                "加特拉海滩",
+                "克伦戈普海滩",
+                "特产中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户的要求更换为其他海滩旅游。"
+            },
+            "hariKedua": {
+              "destinasi": ["观景台", "滴水洞", "卡帕斯布鲁瀑布 / 彩虹雾瀑布"],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "通帕克瑟武瀑布包括向导，直到探索结束。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "日出点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "耳语沙海",
+                "草原",
+                "天线宝宝山",
+                "巴托克山",
+                "鲁赫神庙"
+              ],
+              "catatan": "布罗莫的行程可以选择午夜游或全景游。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3250000,
+              "2orang": 1625000,
+              "3orang": 1081000,
+              "4orang": 812000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive1": {
+              "1orang": 3499000,
+              "2orang": 2275000,
+              "3orang": 1799000,
+              "4orang": 1575000,
+              "5orang": 1455000,
+              "6orang": 1455000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive2": {
+              "1orang": 4999000,
+              "2orang": 2775000,
+              "3orang": 2040000,
+              "4orang": 1675000,
+              "5orang": 1450000,
+              "6orang": 1450000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "欢迎饮料",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive1": {
+              "include": [
+                "旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "2 星 / 3 星酒店或别墅",
+                "导游",
+                "船只 / 潜水设备",
+                "景点门票",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "私人旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "2 星 / 3 星酒店或别墅",
+                "景点门票",
+                "船只 / 潜水设备",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "kategoriId": "3D2N",
+          "judulPaket": "布罗莫山 & 马朗和巴图市区游 & 三色海滩",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "三色海滩",
+                "加特拉海滩",
+                "克伦戈普海滩",
+                "特产中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户的要求更换为其他海滩旅游。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "贾丁公园 1/2/3 / 运输博物馆",
+                "槟城山滑翔伞",
+                "圣特拉花卉旅游区",
+                "巴图广场美食之旅",
+                "特产中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户的要求更换为马朗和巴图市的其他景点。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "日出点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "耳语沙海",
+                "草原",
+                "天线宝宝山",
+                "巴托克山",
+                "鲁赫神庙"
+              ],
+              "catatan": "布罗莫的行程可以选择午夜游或全景游。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3150000,
+              "2orang": 1575000,
+              "3orang": 1050000,
+              "4orang": 791000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive1": {
+              "1orang": 3299000,
+              "2orang": 2299000,
+              "3orang": 1877000,
+              "4orang": 1677000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive2": {
+              "1orang": 4710000,
+              "2orang": 2799000,
+              "3orang": 2110000,
+              "4orang": 1780000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "欢迎饮料",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "住宿", "景点门票", "餐饮"]
+            },
+            "paketExclusive1": {
+              "include": [
+                "旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "2 星 / 3 星酒店或别墅",
+                "导游",
+                "船只 / 潜水设备",
+                "景点门票",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "私人旅游交通 (3 天)",
+                "旅游摄影 / 布罗莫摄影师",
+                "四轮驱动硬顶吉普车",
+                "2 星 / 3 星酒店或别墅",
+                "景点门票",
+                "船只 / 潜水设备",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人支出", "餐饮"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata4Hari": {
+      "title": "4天3夜旅游套餐价格表",
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "kategoriId": "4D3N",
+          "judulPaket": "马朗和巴图城市游览 & 布罗莫火山 & 坤帕克斯沃瀑布 & 3色海滩",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3色海滩",
+                "加特拉海滩",
+                "克伦戈普海滩",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 到 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他海滩景点。"
+            },
+            "hariKedua": {
+              "destinasi": ["观景台", "滴水洞", "蓝色绵瀑布 / 彩虹迷雾瀑布"],
+              "jadwal": "05:00 WIB 到 20:00 WIB",
+              "catatan": "腾帕克斯沃瀑布包括一个导游进行完整的探索。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim公园1/2/3 / 游车博物馆",
+                "枪山展望台",
+                "圣特拉花卉旅游",
+                "巴图广场美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "00:05 WIB 到 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图其他景点。"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "日出观景点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "低语沙海",
+                "草原",
+                "天线山",
+                "巴托克山",
+                "卢赫神庙"
+              ],
+              "catatan": "布罗莫日程可以选择午夜或全景"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3900000,
+              "2orang": 1950000,
+              "3orang": 1300000,
+              "4orang": 975000,
+              "5orang": 780000,
+              "6orang": 760000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 5795000,
+              "2orang": 3705000,
+              "3orang": 2999000,
+              "4orang": 2515000,
+              "5orang": 2225000,
+              "6orang": 1999000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "欢迎饮品",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "旅游入场券", "餐食"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "4x4硬顶吉普车",
+                "2/3星级酒店或别墅",
+                "旅游入场券",
+                "船/浮潜设备",
+                "导游",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐食"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "kategoriId": "4D3N",
+          "judulPaket": "布罗莫山 & 马朗市区游览 & 巴图市 & 3色海滩 4天3夜",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3色海滩",
+                "加特拉海滩",
+                "克伦戈普海滩",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他海滩景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / 游车博物馆",
+                "风筝山",
+                "圣特拉花卉旅游",
+                "巴图广场美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图其他景点。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "日出观景点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "低语沙海",
+                "草原",
+                "天线山",
+                "巴托克山",
+                "卢赫神庙"
+              ],
+              "catatan": "布罗莫日程可以选择午夜或全景"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "咖啡田园普琼基杜尔",
+                "科班隆多地区 / 圣特拉花卉旅游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3800000,
+              "2orang": 1900000,
+              "3orang": 1279000,
+              "4orang": 950000,
+              "5orang": 760000,
+              "6orang": 741000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 5995000,
+              "2orang": 3500000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 1975000,
+              "6orang": 1975000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "欢迎饮品",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "旅游入场券", "餐食"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "4x4硬顶吉普车",
+                "2/3星级酒店或别墅",
+                "旅游入场券",
+                "船/浮潜设备",
+                "导游",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐食"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "4D3N",
+          "judulPaket": "布罗莫山 & 马朗 & 巴图市区游览 4天3夜",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "巴图夜景",
+                "巴图广场美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他景点。"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "游车博物馆 & 漂浮市场",
+                "风筝山",
+                "木屋/天际花园",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "水瀑布探险包括导游陪同。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "日出观景点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "低语沙海",
+                "草原",
+                "天线山",
+                "巴托克山",
+                "卢赫神庙"
+              ],
+              "catatan": "布罗莫日程可以选择午夜或全景"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "咖啡田园普琼基杜尔",
+                "科班隆多地区 / 圣特拉花卉旅游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 至 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3800000,
+              "2orang": 1900000,
+              "3orang": 1279000,
+              "4orang": 950000,
+              "5orang": 760000,
+              "6orang": 741000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 5995000,
+              "2orang": 3500000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 1975000,
+              "6orang": 1975000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "4x4硬顶吉普车",
+                "欢迎饮品",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "旅游入场券", "餐食"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（4天）",
+                "旅行摄影/布罗莫摄影师",
+                "4x4硬顶吉普车",
+                "2/3星级酒店或别墅",
+                "旅游入场券",
+                "船/浮潜设备",
+                "导游",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐食"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata5Hari": {
+      "title": "5天4夜旅游套餐价格表",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "kategoriId": "5D4N",
+          "judulPaket": "马朗和巴图城市游览 & 布罗莫火山 & 坤帕克斯沃瀑布 & 3色海滩",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "3色海滩",
+                "加特拉海滩",
+                "克伦戈普海滩",
+                "纪念品中心"
+              ],
+              "jadwal": "00:05 WIB 到 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为其他海滩景点。"
+            },
+            "hariKedua": {
+              "destinasi": ["观景台", "滴水洞", "蓝色绵瀑布 / 彩虹迷雾瀑布"],
+              "jadwal": "00:05 WIB 到 20:00 WIB",
+              "catatan": "腾帕克斯沃瀑布包括一个导游进行完整的探索。"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim公园1/2/3 / 游车博物馆",
+                "枪山展望台",
+                "圣特拉花卉旅游",
+                "巴图广场美食之旅",
+                "纪念品中心"
+              ],
+              "jadwal": "00:05 WIB 到 20:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图其他景点。"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "日出观景点",
+                "维多达伦山",
+                "布罗莫火山口",
+                "低语沙海",
+                "草原",
+                "天线山",
+                "巴托克山",
+                "卢赫神庙"
+              ],
+              "catatan": "布罗莫日程可以选择午夜或全景"
+            },
+            "hariKelima": {
+              "destinasi": [
+                "咖啡田园普琼基杜尔",
+                "科班隆多地区 / 圣特拉花卉旅游",
+                "纪念品中心"
+              ],
+              "jadwal": "05:00 WIB 到 21:00 WIB",
+              "catatan": "所有旅游景点可以根据客户要求更换为马朗和巴图其他景点。"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 4700000,
+              "2orang": 2350000,
+              "3orang": 1560000,
+              "4orang": 1175000,
+              "5orang": 940000,
+              "6orang": 900000,
+              "6+Orang": "联系我们"
+            },
+            "paketExclusive": {
+              "1orang": 6500000,
+              "2orang": 4300000,
+              "3orang": 3400000,
+              "4orang": 2700000,
+              "5orang": 2500000,
+              "6orang": 2200000,
+              "6+Orang": "联系我们"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "私人旅游交通（5天）",
+                "旅行摄影/布罗莫摄影师",
+                "欢迎饮品",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "住宿", "旅游入场券", "餐食"]
+            },
+            "paketExclusive": {
+              "include": [
+                "私人旅游交通（5天）",
+                "旅行摄影/布罗莫摄影师",
+                "4x4硬顶吉普车",
+                "2/3星级酒店或别墅",
+                "旅游入场券",
+                "船/浮潜设备",
+                "导游",
+                "酒店早餐",
+                "燃料",
+                "司机",
+                "停车费",
+                "急救包和口罩",
+                "便携椅",
+                "吊床"
+              ],
+              "exclude": ["个人开支", "餐食"]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

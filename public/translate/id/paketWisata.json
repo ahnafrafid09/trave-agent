@@ -1,0 +1,2206 @@
+{
+  "paketWisata": {
+    "title": "Daftar Harga Paket Wisata",
+    "label": {
+      "kategori": "Kategori",
+      "fasilitas": "Fasilitas",
+      "destinasi": "Destinasi",
+      "jadwal": "Jadwal"
+    },
+    "kategori": {
+      "1D": "1 Hari",
+      "2D1N": "2 Hari 1 Malam",
+      "3D2N": "3 Hari 2 Malam",
+      "4D3N": "4 Hari 3 Malam",
+      "5D4N": "5 Hari 4 Malam",
+      "bromo": "Paket Wisata Bromo"
+    },
+    "paketBromo": {
+      "title": "Daftar Paket Wisata Bromo",
+      "kategori": {
+        "openTrip": "Open Trip Bromo",
+        "privateTrip": "Private Trip Bromo",
+        "privateTripDokumentasi": "Private Trip Bromo + Dokumentasi",
+        "privateTripDokumentasiPiknik": "Private Trip Bromo + Dokumentasi + Piknik"
+      },
+      "kategoriJadwal": {
+        "midnight": "Itenary Midnight",
+        "panorama": "Itenary Panorama"
+      },
+      "jadwal": {
+        "midnight": {
+          "waktu": "00:00 WIB Sampai 16:00 WIB",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 WIB Sampai 20:00 WIB",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "paketBromoDetail": [
+        {
+          "id": 1,
+          "judulPaket": "Open Trip Bromo",
+          "kategoriId": "bromo",
+          "harga": {
+            "1orang": 299000
+          },
+          "destinasi": [
+            "Sunrise Point",
+            "Bukit Widodaren",
+            "Kawah Bromo",
+            "Lautan Pasir Berbisik",
+            "Padang Savana",
+            "Bukit Teletubies",
+            "Bukit Batok",
+            "Pure Luhur"
+          ],
+          "deskripsi": {
+            "include": [
+              "Transportasi Wisata Malang - Bromo (PP)",
+              "Dokumentasi dengan kamera DSLR",
+              "Fotografer Profesional",
+              "Supir",
+              "BBM",
+              "Gratis Biaya Parkir",
+              "Jeep Hardtop 4x4",
+              "Tiket Masuk Wisata (WNI)"
+            ],
+            "exclude": ["Obat-Obatan Khusus", "Makan"]
+          },
+          "tourDeskripsi": "Merupakan trip gabungan dengan peserta lain dan setiap hari berangkat tanpa ada minimal peserta."
+        },
+        {
+          "id": 2,
+          "judulPaket": "Private Trip Bromo",
+          "kategoriId": "bromo",
+          "destinasi": [
+            "Sunrise Point",
+            "Bukit Widodaren",
+            "Kawah Bromo",
+            "Lautan Pasir Berbisik",
+            "Padang Savana",
+            "Bukit Teletubies",
+            "Bukit Batok",
+            "Pure Luhur"
+          ],
+          "harga": {
+            "2orang": 699000,
+            "3orang": 499000,
+            "4orang": 375000,
+            "5orang": 299000,
+            "6orang": 250000,
+            "7orang": 250000,
+            "8orang": 250000,
+            "9orang": 250000,
+            "10orang": 250000,
+            "11orang": 250000,
+            "12orang": 250000,
+            "12+Orang": "Hubungi Kami"
+          },
+          "deskripsi": {
+            "include": [
+              "Transportasi Pribadi Malang - Bromo (PP)",
+              "Supir",
+              "BBM",
+              "Gratis Biaya Parkir",
+              "P3K dan Masker",
+              "Welcome Drink",
+              "Kursi Portable",
+              "Jeep Hardtop 4x4",
+              "Tiket Masuk Wisata (WNI)"
+            ],
+            "exclude": ["Obat-Obatan Khusus", "Makan"]
+          },
+          "tourDeskripsi": "Paket Bromo Privat lebih nyaman tanpa ada peserta lain (hanya rombongan). Jadwal lebih fleksibel (waktu penjemputan bisa request), harga dapat menyesuaikan peserta dan dapat memilih midnight (sunrise) atau panorama (sunset)"
+        },
+        {
+          "id": 3,
+          "destinasi": [
+            "Sunrise Point",
+            "Bukit Widodaren",
+            "Kawah Bromo",
+            "Lautan Pasir Berbisik",
+            "Padang Savana",
+            "Bukit Teletubies",
+            "Bukit Batok",
+            "Pure Luhur"
+          ],
+          "judulPaket": "Private Trip Bromo + Dokumentasi",
+          "kategoriId": "bromo",
+          "harga": {
+            "2orang": 849000,
+            "3orang": 599000,
+            "4orang": 435000,
+            "5orang": 350000,
+            "6orang": 350000,
+            "7orang": 350000,
+            "8orang": 350000,
+            "9orang": 350000,
+            "10orang": 325000,
+            "11orang": 299000,
+            "11+Orang": "Hubungi Kami"
+          },
+          "deskripsi": {
+            "include": [
+              "Transportasi Pribadi Malang - Bromo (PP)",
+              "Supir",
+              "BBM",
+              "Dokumentasi dengan kamera DSLR",
+              "Fotografer Profesional",
+              "Gratis Biaya Parkir",
+              "P3K dan Masker",
+              "Welcome Drink",
+              "Kursi Portable",
+              "Jeep Hardtop 4x4",
+              "Tiket Masuk Wisata (WNI)"
+            ],
+            "exclude": ["Obat-Obatan Khusus", "Makan"]
+          },
+          "tourDeskripsi": "Paket Bromo Privat + Dokumentasi lebih nyaman tanpa ada peserta lain (hanya rombongan). Jadwal lebih fleksibel (waktu penjemputan bisa request), harga dapat menyesuaikan peserta dan dapat memilih midnight (sunrise) atau panorama (sunset)"
+        },
+        {
+          "id": 4,
+          "kategoriId": "bromo",
+          "destinasi": [
+            "Sunrise Point",
+            "Bukit Widodaren",
+            "Kawah Bromo",
+            "Lautan Pasir Berbisik",
+            "Padang Savana",
+            "Bukit Teletubies",
+            "Bukit Batok",
+            "Pure Luhur"
+          ],
+          "judulPaket": "Private Trip Bromo + Dokumentasi + Piknik",
+          "harga": {
+            "2orang": 1170000,
+            "3orang": 799000,
+            "4orang": 625000,
+            "5orang": 520000,
+            "6orang": 499000,
+            "7orang": 499000,
+            "8orang": 499000,
+            "9orang": 499000,
+            "10orang": 475000,
+            "11orang": 429000,
+            "11+Orang": "Hubungi Kami"
+          },
+          "deskripsi": {
+            "include": [
+              "Transportasi Pribadi Malang - Bromo (PP)",
+              "Supir",
+              "BBM",
+              "Makan & Minum",
+              "Romantic Picnic Bromo",
+              "Dekorasi",
+              "Dokumentasi dengan kamera DSLR",
+              "Fotografer Profesional",
+              "Gratis Biaya Parkir",
+              "P3K dan Masker",
+              "Welcome Drink",
+              "Kursi Portable",
+              "Jeep Hardtop 4x4",
+              "Tiket Masuk Wisata (WNI)"
+            ],
+            "exclude": ["Obat-Obatan Khusus"]
+          },
+          "tourDeskripsi": "Layanan Exclusive Private Trip dengan dokumentadi dan Romantic Picnic sudah termasuk dengan makan dan minum. Tanpa di gabung dengan peserta lain, waktu fleksibel, dan dapat memilih menu"
+        }
+      ]
+    },
+    "paketWisata1Hari": {
+      "title": "Daftar Harga Paket Wisata Malang 1 Hari",
+      "kategoriId": "1D",
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "Air Terjun Tumpak Sewu",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Gardu Pandang",
+            "Goa Tetes",
+            "Air Terjun Kapas Biru",
+            "Air Terjun Kabut Pelangi",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 187000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 375000,
+              "4orang": 299000,
+              "5orang": 250000,
+              "6orang": 219000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 299000,
+              "6orang": 260000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "Tour Guide",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Makan"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "Tour Guide",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "05:00 WIB hingga 20:00 WIB",
+          "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai"
+        },
+        {
+          "id": 2,
+          "judulPaket": "City Tour Malang Batu Pagi Paket 1",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Kawasan Coban Rondo/Selecta/Flora Wisata",
+            "Paralayang Gunung Banyak/Kawasan Pujon Kidul",
+            "Petik Strawberry/Petik Apel",
+            "Wisata Kuliner Alun-Alun Batu",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 699000,
+              "3orang": 499000,
+              "4orang": 414000,
+              "5orang": 370000,
+              "6orang": 299000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Welcome Drink",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "06:00 WIB hingga 00:00 WIB",
+          "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+        },
+        {
+          "id": 3,
+          "judulPaket": "City Tour Malang Batu Pagi Paket 2",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Jatim Park 1/2/3/Museum Angkut",
+            "Paralayang Gunung Banyak/Kawasan Pujon Kidul/Flora Wisata",
+            "Wisata Kuliner Alun-Alun Batu",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 325000,
+              "3orang": 217000,
+              "4orang": 165000,
+              "5orang": 130000,
+              "6orang": 109000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 710000,
+              "3orang": 544000,
+              "4orang": 460000,
+              "5orang": 410000,
+              "6orang": 379000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Welcome Drink",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "06:00 WIB hingga 00:00 WIB",
+          "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+        },
+        {
+          "id": 4,
+          "judulPaket": "City Tour Malang Batu Malam",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Malang Night Paradise/Malang Skyland",
+            "Paralayang Gunung Banyak",
+            "Cafe & Kuliner",
+            "Wisata Kuliner Alun-Alun Batu",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 299000,
+              "3orang": 199000,
+              "4orang": 150000,
+              "5orang": 120000,
+              "6orang": 99000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 375000,
+              "3orang": 275000,
+              "4orang": 225000,
+              "5orang": 199000,
+              "6orang": 177000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Welcome Drink",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "15:00 WIB hingga 23:30 WIB",
+          "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+        },
+        {
+          "id": 5,
+          "judulPaket": "Tour Pantai Malang Selatan",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Pantai Teluk Asmoro",
+            "Pantai Balekambang / Panta Batu Bengkung",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 450000,
+              "3orang": 320000,
+              "4orang": 260000,
+              "5orang": 220000,
+              "6orang": 199000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiketPhoto": {
+              "2orang": 599000,
+              "3orang": 420000,
+              "4orang": 340000,
+              "5orang": 280000,
+              "6orang": 250000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Welcome Drink",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Makan"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "06:00 WIB hingga 20:00 WIB",
+          "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+        },
+        {
+          "id": 6,
+          "judulPaket": "Tour Pantai 3 Warna",
+          "kategoriId": "1D",
+          "destinasi": [
+            "Pantai 3 Warna",
+            "Pantai Gatra",
+            "Pantai Clungup",
+            "Pusat Oleh-Oleh"
+          ],
+          "harga": {
+            "tanpaTiket": {
+              "2orang": 375000,
+              "3orang": 250000,
+              "4orang": 199000,
+              "5orang": 150000,
+              "6orang": 125000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiket": {
+              "2orang": 499000,
+              "3orang": 337000,
+              "4orang": 270000,
+              "5orang": 225000,
+              "6orang": 199000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "tiketPhoto": {
+              "2orang": 675000,
+              "3orang": 470000,
+              "4orang": 370000,
+              "5orang": 310000,
+              "6orang": 275000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "deskripsi": {
+            "tanpaTiket": {
+              "include": [
+                "Kendaraan",
+                "Pariwisata",
+                "Supir",
+                "BBM",
+                "Welcome Drink",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Tiket Masuk Wisata", "Makan"]
+            },
+            "tiket": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Perahu / Alat Snorkeling",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Makan"]
+            },
+            "tiketPhoto": {
+              "include": [
+                "Kendaraan Pribadi",
+                "Pariwisata",
+                "Tiket Masuk Wisata",
+                "Supir",
+                "BBM",
+                "Gratis Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Perahu",
+                "Alat Snorkeling",
+                "Pelampung",
+                "Hammock",
+                "Travel Photography"
+              ],
+              "exclude": ["Makan"]
+            }
+          },
+          "jadwal": "05:00 WIB hingga 20:00 WIB",
+          "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+        }
+      ]
+    },
+    "paketWisata2Hari": {
+      "title": "Daftar Harga Paket Wisata 2 Hari 1 Malam",
+      "kategoriId": "2D1N",
+      "kategoriJadwalBromo": {
+        "midnight": "Itenary Midnight",
+        "panorama": "Itenary Panorama"
+      },
+      "jadwalBromo": {
+        "midnight": {
+          "waktu": "00:00 WIB Sampai 16:00 WIB",
+          "kategoriJadwalId": "midnight"
+        },
+        "panorama": {
+          "waktu": "06:00 WIB Sampai 20:00 WIB",
+          "kategoriJadwalId": "panorama"
+        }
+      },
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "Gunung Bromo & City Tour Malang Batu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 950000,
+              "2orang": 625000,
+              "3orang": 515000,
+              "4orang": 462000,
+              "5orang": 429000,
+              "6orang": 407000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive1": {
+              "1orang": 2250000,
+              "2orang": 1275000,
+              "3orang": 1035000,
+              "4orang": 970000,
+              "5orang": 950000,
+              "6orang": 920000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive2": {
+              "1orang": 3110000,
+              "2orang": 1670000,
+              "3orang": 1270000,
+              "4orang": 1070000,
+              "5orang": 950000,
+              "6orang": 950000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Breakfast Hotel",
+                "Tiket Masuk Wisata",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          },
+          "tourDeskripsi": "Trip "
+        },
+        {
+          "id": 2,
+          "judulPaket": "City Tour Kota Malang & Batu 2 Hari 1 Malam",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Wisata Edukasi Petik Apel",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul / Paralayang Gunung Banyak",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "06:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1300000,
+              "2orang": 650000,
+              "3orang": 450000,
+              "4orang": 325000,
+              "5orang": 260000,
+              "6orang": 217000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 2720000,
+              "2orang": 1470000,
+              "3orang": 1150000,
+              "4orang": 962000,
+              "5orang": 862000,
+              "6orang": 799000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "judulPaket": "City Tour Kota Malang Batu & Air Terjun Tumpak Sewu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Flora Wisata San Terra / Pujon Kidul / Paralayang",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Air Terjun Kapas Biru / Air Terjun Kabut Pelangi"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 350000,
+              "6orang": 283000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 2700000,
+              "2orang": 1499000,
+              "3orang": 1150000,
+              "4orang": 985000,
+              "5orang": 890000,
+              "6orang": 850000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Welcome Drink",
+                "Travel Photography 1 Hari (Bebas Pilih)",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography 1 Hari (Bebas Pilih)",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "judulPaket": "Tour Pantai 3 Warna & Gunung Bromo",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive1": {
+              "1orang": 1900000,
+              "2orang": 1199000,
+              "3orang": 985000,
+              "4orang": 875000,
+              "5orang": 830000,
+              "6orang": 825000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive2": {
+              "1orang": 3400000,
+              "2orang": 1700000,
+              "3orang": 1200000,
+              "4orang": 975000,
+              "5orang": 840000,
+              "6orang": 840000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Welcome Drink",
+                "Travel Photography / Fotografer Bromo",
+                "BBM",
+                "Jeep Hardtop 4x4",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "Jeep Hardtop 4x4",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "Jeep Hardtop 4x4",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "judulPaket": "Gunung Bromo & Air Terjun Tumpak Sewu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Air Terjun Kapas Biru / Air Terjun Kabut Pelangi"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai"
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1050000,
+              "2orang": 675000,
+              "3orang": 550000,
+              "4orang": 487000,
+              "5orang": 450000,
+              "6orang": 425000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive1": {
+              "1orang": 1800000,
+              "2orang": 1075000,
+              "3orang": 990000,
+              "4orang": 840000,
+              "5orang": 790000,
+              "6orang": 770000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive2": {
+              "1orang": 3300000,
+              "2orang": 1700000,
+              "3orang": 1250000,
+              "4orang": 975000,
+              "5orang": 850000,
+              "6orang": 850000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Welcome Drink",
+                "Travel Photography / Fotografer Bromo",
+                "BBM",
+                "Jeep Hardtop 4x4",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Transportasi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "Jeep Hardtop 4x4",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "Jeep Hardtop 4x4",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "judulPaket": "Pantai 3 Warna & City Tour Malang Batu",
+          "kategoriId": "2D1N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Flora Wisata San Terra / Cafe Sawah / Paralayang",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 1700000,
+              "2orang": 850000,
+              "3orang": 566000,
+              "4orang": 425000,
+              "5orang": 340000,
+              "6orang": 290000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1650000,
+              "3orang": 1250000,
+              "4orang": 1050000,
+              "5orang": 950000,
+              "6orang": 871000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Welcome Drink",
+                "Travel Photography / Fotografer Pantai / City Tour",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (2 Hari)",
+                "Travel Photography / Fotografer Pantai / City Tour",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Perahu / Alat Snorkeling",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata3Hari": {
+      "title": "Daftar Harga Paket Wisata 3 Hari 2 Malam",
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "City Tour Kota Malang & Batu 3 Hari 2 Malam",
+          "kategoriId": "3D2N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "Batu Night Spectaculer",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Museum angkut & Pasar Apung",
+                "Paralayang Gunung Banyak",
+                "Omah Kayu / Taman Langit",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "06:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 2250000,
+              "2orang": 1125000,
+              "3orang": 750000,
+              "4orang": 562000,
+              "5orang": 450000,
+              "6orang": 375000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 3950000,
+              "2orang": 2200000,
+              "3orang": 1817000,
+              "4orang": 1625000,
+              "5orang": 1509000,
+              "6orang": 1450000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography 1 Hari (Bebas Pilih)",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography 1 Hari (Bebas Pilih)",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "judulPaket": "Gunung Bromo & City Tour Kota Malang & Batu 3 Hari 2 Malam",
+          "kategoriId": "3D2N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Petik Apel / Paralayang Gunung Banyak",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3050000,
+              "2orang": 1525000,
+              "3orang": 1015000,
+              "4orang": 762000,
+              "5orang": 615000,
+              "6orang": 615000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 2999000,
+              "2orang": 1999000,
+              "3orang": 1715000,
+              "4orang": 1549000,
+              "5orang": 1499000,
+              "6orang": 1499000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "3D2N",
+          "judulPaket": "Gunung Bromo & Air Terjun Tumpak Sewu & Pantai 3 Warna",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Air Terjun Kapas Biru / Air Terjun Kabut Pelangi"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3250000,
+              "2orang": 1625000,
+              "3orang": 1081000,
+              "4orang": 812000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive1": {
+              "1orang": 3499000,
+              "2orang": 2275000,
+              "3orang": 1799000,
+              "4orang": 1575000,
+              "5orang": 1455000,
+              "6orang": 1455000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive2": {
+              "1orang": 4999000,
+              "2orang": 2775000,
+              "3orang": 2040000,
+              "4orang": 1675000,
+              "5orang": 1450000,
+              "6orang": 1450000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Transportasi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Perahu / Alat Snorkeling",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "kategoriId": "3D2N",
+          "judulPaket": "Gunung Bromo & City Tour Kota Malang dan Batu & Pantai 3 Warna",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Paralayang Gunung Banyak",
+                "Flora Wisata San Terra",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3150000,
+              "2orang": 1575000,
+              "3orang": 1050000,
+              "4orang": 791000,
+              "5orang": 650000,
+              "6orang": 650000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive1": {
+              "1orang": 3299000,
+              "2orang": 2299000,
+              "3orang": 1877000,
+              "4orang": 1677000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive2": {
+              "1orang": 4710000,
+              "2orang": 2799000,
+              "3orang": 2110000,
+              "4orang": 1780000,
+              "5orang": 1599000,
+              "6orang": 1599000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive1": {
+              "include": [
+                "Transportasi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tour Guide",
+                "Perahu / Alat Snorkeling",
+                "Tiket Masuk Wisata",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            },
+            "paketExclusive2": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (3 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata4Hari": {
+      "title": "Daftar Harga Paket Wisata 4 Hari 3 Malam",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "City Tour Kota Malang dan Batu & Gunung Bromo & Air Terjun Tumpak Sewu & Pantai 3 Warna",
+          "kategoriId": "4D3N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Air Terjun Kapas Biru / Air Terjun Kabut Pelangi"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Paralayang Gunung Banyak",
+                "Flora Wisata San Terra",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3900000,
+              "2orang": 1950000,
+              "3orang": 1300000,
+              "4orang": 975000,
+              "5orang": 780000,
+              "6orang": 760000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 5795000,
+              "2orang": 3705000,
+              "3orang": 2999000,
+              "4orang": 2515000,
+              "5orang": 2225000,
+              "6orang": 1999000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Tour Guide",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "kategoriId": "4D3N",
+          "judulPaket": "Gunung Bromo & City Tour Kota Malang dan Kota Batu & Pantai 3 Warna 4 Hari 3 Malam",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Paralayang Gunung Banyak",
+                "Flora Wisata San Terra",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer.",
+              "jadwal": "05:00 WIB hingga 21:00 WIB"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3800000,
+              "2orang": 1900000,
+              "3orang": 1279000,
+              "4orang": 950000,
+              "5orang": 760000,
+              "6orang": 741000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 5995000,
+              "2orang": 3500000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 1975000,
+              "6orang": 1975000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Tour Guide",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "kategoriId": "4D3N",
+          "judulPaket": "Gunung Bromo & City Tour Kota Malang & Batu 4 Hari 3 Malam",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Jatim Park 1/2/3",
+                "Batu Night Spectaculer",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Museum angkut & Pasar Apung",
+                "Paralayang Gunung Banyak",
+                "Omah Kayu / Taman Langit",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 21:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer.",
+              "jadwal": "05:00 WIB hingga 21:00 WIB"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 3800000,
+              "2orang": 1900000,
+              "3orang": 1279000,
+              "4orang": 950000,
+              "5orang": 760000,
+              "6orang": 741000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 5995000,
+              "2orang": 3500000,
+              "3orang": 2950000,
+              "4orang": 2450000,
+              "5orang": 1975000,
+              "6orang": 1975000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Welcome Drink",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (4 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Tour Guide",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        }
+      ]
+    },
+    "paketWisata5Hari": {
+      "title": "Daftar Harga Paket Wisata 5 Hari 4 Malam",
+
+      "listPaketWisata": [
+        {
+          "id": 1,
+          "judulPaket": "City Tour Kota Malang dan Batu & Gunung Bromo & Air Terjun Tumpak Sewu & Pantai 3 Warna",
+          "kategoriId": "5D4N",
+          "deskripsi": {
+            "hariPertama": {
+              "destinasi": [
+                "Pantai 3 Warna",
+                "Pantai Gatra",
+                "Pantai Clungup",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata pantai lain sesuai permintaan customer."
+            },
+            "hariKedua": {
+              "destinasi": [
+                "Gardu Pandang",
+                "Goa Tetes",
+                "Air Terjun Kapas Biru / Air Terjun Kabut Pelangi"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Air Terjun Tumpak Sewu sudah termasuk pemandu untuk menjelajahi sampai selesai."
+            },
+            "hariKetiga": {
+              "destinasi": [
+                "Jatim Park 1/2/3 / Museum Angkut",
+                "Paralayang Gunung Banyak",
+                "Flora Wisata San Terra",
+                "Wisata Kuliner Alun-Alun Batu",
+                "Pusat Oleh-Oleh"
+              ],
+              "jadwal": "05:00 WIB hingga 20:00 WIB",
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer."
+            },
+            "hariKeempat": {
+              "destinasi": [
+                "Sunrise Point",
+                "Bukit Widodaren",
+                "Kawah Bromo",
+                "Lautan Pasir Berbisik",
+                "Padang Savana",
+                "Bukit Teletubbies",
+                "Bukit Batok",
+                "Pure Luhur"
+              ],
+              "catatan": "Jadwal bromo dapat memilih Midnight dan Panorama"
+            },
+            "hariKelima": {
+              "destinasi": [
+                "Cafe Sawah Pujon Kidul",
+                "Kawasan Coban Rondo / Flora Wisata San Terra",
+                "Pusat Oleh-Oleh"
+              ],
+              "catatan": "Semua destinasi wisata dapat di ganti wisata lain di seluruh Kota Malang dan Batu sesuai Permintaan customer.",
+              "jadwal": "05:00 WIB hingga 21:00 WIB"
+            }
+          },
+          "harga": {
+            "paketBasic": {
+              "1orang": 4550000,
+              "2orang": 2275000,
+              "3orang": 1519000,
+              "4orang": 1139000,
+              "5orang": 910000,
+              "6orang": 866000,
+              "6+Orang": "Hubungi Kami"
+            },
+            "paketExclusive": {
+              "1orang": 6995000,
+              "2orang": 3995000,
+              "3orang": 3200000,
+              "4orang": 2750000,
+              "5orang": 2500000,
+              "6orang": 2299000,
+              "6+Orang": "Hubungi Kami"
+            }
+          },
+          "fasilitas": {
+            "paketBasic": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (5 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Welcome Drink",
+                "Jeep Hardtop 4x4",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "'Hammock"
+              ],
+              "exclude": [
+                "Pengeluaran Pribadi",
+                "Penginapan",
+                "Tiket Masuk Wisata",
+                "Makan"
+              ]
+            },
+            "paketExclusive": {
+              "include": [
+                "Transportasi Pribadi Pariwisata (5 Hari)",
+                "Travel Photography / Fotografer Bromo",
+                "Jeep Hardtop 4x4",
+                "Hotel Bintang 2 / 3 atau Villa",
+                "Tiket Masuk Wisata",
+                "Perahu / Alat Snorkeling",
+                "Tour Guide",
+                "Breakfast Hotel",
+                "BBM",
+                "Supir",
+                "Biaya Parkir",
+                "P3K dan Masker",
+                "Kursi Portable",
+                "Hammock"
+              ],
+              "exclude": ["Pengeluaran Pribadi", "Makan"]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

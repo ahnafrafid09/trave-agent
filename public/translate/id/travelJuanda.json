@@ -1,0 +1,29 @@
+{
+  "travel": {
+    "judul": "Daftar Harga Travel Malang - Bandara Juanda / Surabaya",
+    "list": [
+      {
+        "id": 1,
+        "judul": "Travel Reguler Malang - Bandara Juanda / Surabaya",
+        "deskripsi": "Travel Reguler (Perorangan)",
+        "gambar": "/images/travel/bandara.jpg",
+        "berangkat": "Berangkat Tiap Hari",
+        "keberangkatan": "Start dari Malang Pukul 02.00 WIB",
+        "catatan": "Include Tol",
+        "mobil": ["Avanza isi 4", "Innova isi 5", "Hiace isi 10"],
+        "harga": 165000
+      },
+      {
+        "id": 2,
+        "judul": "Travel Reguler Bandara Juanda / Surabaya - Malang",
+        "deskripsi": "Travel Reguler (Perorangan)",
+        "gambar": "/images/travel/malang.jpg",
+        "berangkat": "Berangkat Tiap Hari",
+        "catatan": "Include Tol",
+        "keberangkatan": "Start dari Malang Pukul 07.00 WIB",
+        "mobil": ["Avanza isi 4", "Innova isi 5", "Hiace isi 10"],
+        "harga": 165000
+      }
+    ]
+  }
+}

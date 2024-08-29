@@ -1,0 +1,37 @@
+{
+  "travel": {
+    "judul": "Travel Malang - Surabaya / Juanda Airport Price List",
+    "list": [
+      {
+        "id": 1,
+        "judul": "Travel Reguler Malang - Surabaya / Juanda Airport",
+        "deskripsi": "Regular Travel (Individual)",
+        "berangkat": "Every Day",
+        "gambar": "/images/travel/bandara.jpg",
+        "keberangkatan": "Starts from Malang at 02:00 WIB",
+        "catatan": "Include Tol",
+        "mobil": [
+          "Avanza with 4 seats",
+          "Innova with 5 seats",
+          "Hiace with 10 seats"
+        ],
+        "harga": 165000
+      },
+      {
+        "id": 2,
+        "gambar": "/images/travel/malang.jpg",
+        "judul": "Travel Reguler Juanda Airport / Surabaya - Malang",
+        "deskripsi": "Regular Travel (Individual)",
+        "berangkat": "Every Day",
+        "catatan": "Include Tol",
+        "keberangkatan": "Starts from Malang at 07:00 WIB",
+        "mobil": [
+          "Avanza with 4 seats",
+          "Innova with 5 seats",
+          "Hiace with 10 seats"
+        ],
+        "harga": 165000
+      }
+    ]
+  }
+}
