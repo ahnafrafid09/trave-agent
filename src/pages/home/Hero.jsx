@@ -16,10 +16,10 @@ const Hero = () => {
 
   return (
     <section className="relative h-screen">
-      <div className="container absolute inset-0 z-10 flex flex-col items-center lg:items-start justify-center gap-12">
+      <div className="container absolute inset-0 z-10 flex flex-col items-center justify-center gap-12">
         <div className="flex flex-col gap-3">
           <motion.p
-            className="text-white text-lg sm:text-xl md:text-2xl text-center lg:text-start"
+            className="text-white text-lg sm:text-xl md:text-2xl text-center "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -27,7 +27,7 @@ const Hero = () => {
             {t("hero.tagline")}
           </motion.p>
           <motion.h1
-            className="text-white text-3xl sm:text-4xl md:text-6xl font-bold text-center md:text-start"
+            className="text-white text-3xl sm:text-4xl md:text-6xl font-bold text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -35,7 +35,7 @@ const Hero = () => {
             {t("hero.judul")}
           </motion.h1>
           <motion.p
-            className="text-white text-lg sm:text-xl md:text-2xl text-center md:text-start"
+            className="text-white text-lg sm:text-xl md:text-2xl text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
