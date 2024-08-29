@@ -13,7 +13,7 @@ i18n
         backend: {
             loadPath: '/translate/{{lng}}/{{ns}}.json'
         },
-        ns: ['navbar', 'home', 'produk', 'kontak', 'card'],
+        ns: ['navbar', 'home', 'produk', 'kontak', 'card', 'sewaMobil', 'paketWisata', "travelJuanda"],
         defaultNS: 'navbar',
         interpolation: {
             escapeValue: false
