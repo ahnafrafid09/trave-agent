@@ -18,6 +18,10 @@ export default {
           lg: '4rem',
         },
       },
+      colors: {
+        "primary": "#076ab1",
+        "primary-dark": "#054d80",
+      }
     },
     plugins: [],
   }
