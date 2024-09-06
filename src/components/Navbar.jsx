@@ -81,7 +81,7 @@ function Navbar() {
           <Link to={getLocalizedPath("/")} onClick={closeMobileMenu}>
             <img src={logo} alt="logo" className="h-14 md:h-20" />
           </Link>
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 text-lg">
             <Link
               to={getLocalizedPath("/")}
               className="text-white hover:text-gray-300"

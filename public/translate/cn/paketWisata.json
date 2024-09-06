@@ -43,6 +43,7 @@
           "id": 1,
           "judulPaket": "开放行程布罗莫",
           "kategoriId": "bromo",
+          "gambar": "/images/paket-wisata/open trip bromo.png",
           "destinasi": [
             "日出点",
             "维多达伦山",
@@ -74,6 +75,7 @@
         {
           "id": 2,
           "judulPaket": "私人行程布罗莫",
+          "gambar": "/images/paket-wisata/private trip bromo.png",
           "kategoriId": "bromo",
           "destinasi": [
             "日出点",
@@ -117,6 +119,7 @@
         },
         {
           "id": 3,
+          "gambar": "/images/paket-wisata/private trip bromo dokumentasi.png",
           "destinasi": [
             "日出点",
             "维多达伦山",
@@ -162,6 +165,7 @@
         },
         {
           "id": 4,
+          "gambar": "/images/paket-wisata/private trip bromo picnic.png",
           "destinasi": [
             "日出点",
             "维多达伦山",
@@ -218,6 +222,7 @@
           "id": 1,
           "judulPaket": "通帕克塞乌瀑布",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour tumpak sewu.png",
           "destinasi": [
             "观景台",
             "滴水洞",
@@ -304,6 +309,7 @@
           "id": 2,
           "judulPaket": "马朗巴图城市游早晨套餐1",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour malang batu.png",
           "destinasi": [
             "科班隆多/塞尔克塔/弗洛拉旅游区",
             "高山滑翔/普荣基杜区",
@@ -367,6 +373,7 @@
           "id": 3,
           "judulPaket": "马朗巴图城市游早晨套餐2",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour malang batu.png",
           "destinasi": [
             "Jatim Park 1/2/3/运输博物馆",
             "高山滑翔/普荣基杜区/弗洛拉旅游区",
@@ -429,6 +436,7 @@
           "id": 4,
           "judulPaket": "马朗巴图夜游",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour malang malam.png",
           "destinasi": [
             "马朗夜景天堂/马朗天空之地",
             "高山滑翔",
@@ -489,6 +497,7 @@
         {
           "id": 5,
           "judulPaket": "南马朗海滩游",
+          "gambar": "/images/paket-wisata/tour malang selatan.png",
           "kategoriId": "1D",
           "destinasi": [
             "阿斯莫罗湾海滩",
@@ -572,6 +581,7 @@
         {
           "id": 6,
           "judulPaket": "三色海滩游",
+          "gambar": "/images/paket-wisata/tour pantai 3 warna.png",
           "kategoriId": "1D",
           "destinasi": ["三色海滩", "加特拉海滩", "克隆戈普海滩", "纪念品中心"],
           "harga": {
@@ -675,6 +685,7 @@
           "id": 1,
           "judulPaket": "Bromo火山 & 马朗市区游",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N Bromo Malang.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -785,6 +796,7 @@
         },
         {
           "id": 2,
+          "gambar": "/images/paket-wisata/2D1N malang batu.png",
           "judulPaket": "马朗市区游 & Batu 2天1夜",
           "kategoriId": "2D1N",
           "deskripsi": {
@@ -865,6 +877,7 @@
           "id": 3,
           "judulPaket": "马朗巴图市区游 & Tumpak Sewu瀑布",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N malang tumpak sewu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -944,6 +957,7 @@
           "id": 4,
           "judulPaket": "三色海滩与布罗莫山之旅",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N pantai 3 warna bromo.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1055,6 +1069,7 @@
           "id": 5,
           "judulPaket": "布罗莫山与通帕克塞伍瀑布",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N bromo tumpak sewu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": ["观景台", "特特斯洞", "卡帕斯比鲁瀑布/彩虹雾瀑布"],
@@ -1160,6 +1175,7 @@
         {
           "id": 6,
           "judulPaket": "三色海滩与马朗巴图城市之旅",
+          "gambar": "/images/paket-wisata/2D1N pantai 3 warna malang.png",
           "kategoriId": "2D1N",
           "deskripsi": {
             "hariPertama": {
@@ -1248,6 +1264,7 @@
           "id": 1,
           "judulPaket": "马朗和巴图城市之旅 3天2晚",
           "kategoriId": "3D2N",
+          "gambar": "/images/paket-wisata/3D2N malang batu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1336,6 +1353,7 @@
           "id": 2,
           "kategoriId": "3D2N",
           "judulPaket": "布罗莫山 & 马朗和巴图城市之旅 3天2晚",
+          "gambar": "/images/paket-wisata/3D2N bromo malang.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1429,6 +1447,7 @@
           "id": 3,
           "kategoriId": "3D2N",
           "judulPaket": "布罗莫山 & 通帕克瑟武瀑布 & 三色海滩",
+          "gambar": "/images/paket-wisata/3D2N bromo tumpak.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1547,6 +1566,7 @@
           "id": 4,
           "kategoriId": "3D2N",
           "judulPaket": "布罗莫山 & 马朗和巴图市区游 & 三色海滩",
+          "gambar": "/images/paket-wisata/3D2N bromo malang pantai.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1675,6 +1695,7 @@
         {
           "id": 1,
           "kategoriId": "4D3N",
+          "gambar": "/images/paket-wisata/4D3N bromo tumpak sewu.png",
           "judulPaket": "马朗和巴图城市游览 & 布罗莫火山 & 坤帕克斯沃瀑布 & 3色海滩",
           "deskripsi": {
             "hariPertama": {
@@ -1776,6 +1797,7 @@
         {
           "id": 2,
           "kategoriId": "4D3N",
+          "gambar": "/images/paket-wisata/4D3N bromo pantai.png",
           "judulPaket": "布罗莫山 & 马朗市区游览 & 巴图市 & 3色海滩 4天3夜",
           "deskripsi": {
             "hariPertama": {
@@ -1882,6 +1904,7 @@
           "id": 3,
           "kategoriId": "4D3N",
           "judulPaket": "布罗莫山 & 马朗 & 巴图市区游览 4天3夜",
+          "gambar": "/images/paket-wisata/4D3N bromo malang.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1992,6 +2015,7 @@
         {
           "id": 1,
           "kategoriId": "5D4N",
+          "gambar": "/images/paket-wisata/5D4N.png",
           "judulPaket": "马朗和巴图城市游览 & 布罗莫火山 & 坤帕克斯沃瀑布 & 3色海滩",
           "deskripsi": {
             "hariPertama": {

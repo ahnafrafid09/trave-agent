@@ -10,13 +10,14 @@ const Card = ({
   harga,
   Icon,
   details,
+  styleImage,
 }) => {
   const { t } = useTranslation("card");
   return variant === "detailed" ? (
     // Varian 1: Kartu dengan detail lengkap
     <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white p-4 border border-gray-200 flex flex-col justify-between h-full">
       <img
-        className="w-full h-48 object-contain rounded"
+        className={`${styleImage} w-full object-contain rounded`}
         src={gambar}
         alt={judul}
       />
@@ -38,18 +39,16 @@ const Card = ({
           ))}
         </ul>
       </div>
-      <div className="flex gap-2 px-4 justify-between items-center mt-4">
-        <div className="flex flex-col">
-          <p className="text-sm">{t("mulaiDari")}</p>
-          <h1 className="font-bold text-xl">Rp. {harga}</h1>
-        </div>
-        <div>
-          <Button
-            href={`https://wa.me/6282244087426?text=Halo%20Anjangsana%20Trip%20Planner,%20saya%20ingin%20bertanya%20tentang%20berapa%20harga%20${judul}?`}
-          >
-            {t("hubungiKami")}
-          </Button>
-        </div>
+      <div className="flex flex-col px-4">
+        <p className="text-sm">{t("mulaiDari")}</p>
+        <h1 className="font-bold text-xl">Rp. {harga}</h1>
+      </div>
+      <div className="px-4 py-2">
+        <Button
+          href={`https://wa.me/6282244087426?text=Halo%20Anjangsana%20Trip%20Planner,%20saya%20ingin%20bertanya%20tentang%20berapa%20harga%20${judul}?`}
+        >
+          {t("pesanSekarang")}
+        </Button>
       </div>
     </div>
   ) : (

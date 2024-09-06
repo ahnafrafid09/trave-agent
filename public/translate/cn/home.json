@@ -4,5 +4,17 @@
     "judul": "Anjangsana Trip Planner",
     "deskripsi": "与我们一起度过最美好的假期时光",
     "tombol": "联系我们"
+  },
+  "rekomendasiProduk": {
+    "judul": "产品推荐",
+    "tombol": "其他产品"
+  },
+  "stats": {
+    "armada": "总车队",
+    "jamKerja": "工作时间",
+    "kantor": "马朗办公室"
+  },
+  "galeri": {
+    "judul": "画廊"
   }
 }
