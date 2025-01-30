@@ -16,8 +16,8 @@
         "jenisMobil": "MPV",
         "kapasitasPenumpang": "6 Passengers",
         "kapasitasDriver": "1 Driver",
-        "harga": 450000,
-        "gambar": "/images/mobil/avanza.png"
+        "harga": 600000,
+        "gambar": "https://///////image.anjangsanatrip.com/product/mobil/avanza.png"
       },
       {
         "id": 2,
@@ -27,8 +27,8 @@
         "jenisMobil": "MPV",
         "kapasitasPenumpang": "7 Passengers",
         "kapasitasDriver": "1 Driver",
-        "harga": 600000,
-        "gambar": "/images/mobil/innova.png"
+        "harga": 800000,
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/innova.png"
       },
       {
         "id": 3,
@@ -38,8 +38,8 @@
         "jenisMobil": "Minibus",
         "kapasitasPenumpang": "14 Passengers",
         "kapasitasDriver": "1 Driver",
-        "harga": 1150000,
-        "gambar": "/images/mobil/hiace commuter.png"
+        "harga": 1200000,
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/hiace commuter.png"
       },
       {
         "id": 4,
@@ -49,8 +49,8 @@
         "jenisMobil": "Minibus",
         "kapasitasPenumpang": "11 Passengers",
         "kapasitasDriver": "1 Driver",
-        "harga": 1250000,
-        "gambar": "/images/mobil/hiace premio.png"
+        "harga": 1300000,
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/hiace premio.png"
       },
       {
         "id": 5,
@@ -60,8 +60,8 @@
         "jenisMobil": "MPV",
         "kapasitasPenumpang": "6 Passengers",
         "kapasitasDriver": "1 Driver",
-        "harga": 400000,
-        "gambar": "/images/mobil/avanza grand.jpg"
+        "harga": 450000,
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/avanza grand.jpg"
       },
       {
         "id": 6,
@@ -72,7 +72,7 @@
         "kapasitasPenumpang": "7 Passengers",
         "kapasitasDriver": "1 Driver",
         "harga": 3000000,
-        "gambar": "/images/mobil/alphard.png"
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/alphard.png"
       },
       {
         "id": 7,
@@ -83,7 +83,7 @@
         "kapasitasPenumpang": "7 Passengers",
         "kapasitasDriver": "1 Driver",
         "harga": 1200000,
-        "gambar": "/images/mobil/fortuner.png"
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/fortuner.png"
       },
       {
         "id": 8,
@@ -94,7 +94,7 @@
         "kapasitasPenumpang": "19 Passengers",
         "kapasitasDriver": "1 Driver",
         "harga": 1250000,
-        "gambar": "/images/mobil/isuzu giga.png"
+        "gambar": "https://image.anjangsanatrip.com/product/mobil/isuzu giga.png"
       }
     ]
   }

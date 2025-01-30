@@ -4,12 +4,22 @@ import Card from "../../components/Card";
 import Map from "../../components/Map";
 import { IoLocationSharp, IoMail, IoCallSharp } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
+import SEO from "../../utils/SEO";
 
 const Kontak = () => {
   const { t } = useTranslation("kontak");
 
   return (
     <section className="mt-16 md:mt-24">
+      <SEO
+        title="Contact - Anjangsana Trip Planner"
+        description="Discover the best trips and tours with Anjangsana Trip Planner. Explore our top packages, read reviews, and find out how we can make your journey unforgettable."
+        keywords="trip planner, tour packages, travel, Anjangsana, Anjangsana trip planner, Anjangsana trip"
+        ogImage="URL_to_image"
+        canonicalUrl="https://www.anjangsana.com/"
+        twitterImage="URL_to_image"
+        ogUrl="https://www.anjangsana.com/"
+      />
       <Header>{t("header")}</Header>
       <div className="container">
         <div className="flex flex-col items-center justify-center">

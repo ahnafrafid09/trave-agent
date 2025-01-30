@@ -6,20 +6,28 @@ import Button from "../../components/Button";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-// Import gambar
-import bromo from "../../assets/images/bromo.jpg";
-import tumpakSewu from "../../assets/images/tumpaksewu.jpg";
-import batu from "../../assets/images/batu.jpg";
-import ijen from "../../assets/images/ijen.jpg";
-import balkot from "../../assets/images/balkot.jpg";
-
 // Konstanta untuk gambar di Swiper
 const images = [
-  { src: bromo, alt: "Bromo" },
-  { src: tumpakSewu, alt: "Tumpak Sewu" },
-  { src: ijen, alt: "Ijen" },
-  { src: balkot, alt: "Balai Kota" },
-  { src: batu, alt: "Batu" },
+  {
+    src: "https://image.anjangsanatrip.com/images/bromo.jpg",
+    alt: "Bromo",
+  },
+  {
+    src: "https://image.anjangsanatrip.com/images/tumpaksewu.jpg",
+    alt: "Tumpak Sewu",
+  },
+  {
+    src: "https://image.anjangsanatrip.com/images/ijen.jpg",
+    alt: "Ijen",
+  },
+  {
+    src: "https://image.anjangsanatrip.com/images/balkot.jpg",
+    alt: "Balai Kota",
+  },
+  {
+    src: "https://image.anjangsanatrip.com/images/batu.jpg",
+    alt: "Batu",
+  },
 ];
 
 // Komponen Reusable untuk Animasi Motion
@@ -42,23 +50,23 @@ const Hero = () => {
       <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-8 px-4 md:gap-12">
         <div className="flex flex-col gap-2 md:gap-3 text-center">
           <AnimatedText>
-            <span className="text-lg sm:text-xl md:text-2xl lg:text-xl xl:text-2xl">
+            <h2 className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
               {t("hero.tagline")}
-            </span>
+            </h2>
           </AnimatedText>
           <AnimatedText delay={0.5}>
-            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-5xl xl:text-6xl font-bold">
+            <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-4xl xl:text-6xl font-bold">
               {t("hero.judul")}
             </h1>
           </AnimatedText>
           <AnimatedText delay={1}>
-            <span className="text-lg sm:text-xl md:text-2xl lg:text-xl xl:text-2xl">
+            <h2 className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
               {t("hero.deskripsi")}
-            </span>
+            </h2>
           </AnimatedText>
         </div>
         <Button
-          size="lg"
+          size="md"
           href="https://wa.me/6289656183536?text=Halo%20Anjangsana%20Trip%20Planner,%20saya%20ingin%20bertanya"
         >
           {t("hero.tombol")}

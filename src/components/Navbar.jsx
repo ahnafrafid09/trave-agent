@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FaBars, FaTimes, FaGlobe } from "react-icons/fa";
 import { MdArrowDropDown } from "react-icons/md";
 import { useTranslation } from "react-i18next";
+import { getLocalizedPath } from "../utils/getLocalizePath";
 import flagId from "../assets/images/flag indo.png";
 import flagEn from "../assets/images/flag eng.png";
 import flagCn from "../assets/images/flag cn.png";
@@ -36,12 +37,7 @@ function Navbar() {
 
   const path = location.pathname;
   const isHomePage =
-    path === "/" || path === "/en/" || path === "/id/" || path === "/cn/";
-
-  const getLocalizedPath = (path) => {
-    const lang = i18n.language;
-    return `/${lang}${path}`;
-  };
+    path === "/" || path === "/en" || path === "/id" || path === "/cn";
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -89,13 +85,13 @@ function Navbar() {
               {t("home")}
             </Link>
             <Link
-              to={getLocalizedPath("/produk")}
+              to={getLocalizedPath("/product")}
               className="text-white hover:text-gray-300"
             >
               {t("produkKami")}
             </Link>
             <Link
-              to={getLocalizedPath("/kontak")}
+              to={getLocalizedPath("/contact")}
               className="text-white hover:text-gray-300"
             >
               {t("kontak")}
@@ -168,14 +164,14 @@ function Navbar() {
                 {t("home")}
               </Link>
               <Link
-                to={getLocalizedPath("/produk")}
+                to={getLocalizedPath("/product")}
                 className="block py-2 text-white hover:text-gray-300"
                 onClick={closeMobileMenu}
               >
                 {t("produkKami")}
               </Link>
               <Link
-                to={getLocalizedPath("/kontak")}
+                to={getLocalizedPath("/contact")}
                 className="block py-2 text-white hover:text-gray-300"
                 onClick={closeMobileMenu}
               >

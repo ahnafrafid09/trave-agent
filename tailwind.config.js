@@ -24,6 +24,7 @@ export default {
         "secondary-yellow": "#fdcd11"
       }
     },
+    darkMode: false,
     plugins: [],
   }
 }

@@ -2,6 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import Card from "../../components/Card";
 import Button from "../../components/Button";
+import { getLowestPrice } from "../../utils/getLowestPrice";
+import { getLocalizedPath } from "../../utils/getLocalizePath";
 
 const ProdukRekomen = () => {
   const { t } = useTranslation(["home", "paketWisata", "travelJuanda"]);
@@ -31,20 +33,6 @@ const ProdukRekomen = () => {
     selectedPaketBromo,
     selectedPaketWisata2Hari,
   ];
-
-  const getLowestPrice = (hargaObj) => {
-    const allPrices = Object.values(hargaObj).flatMap((price) =>
-      typeof price === "object" ? Object.values(price) : price
-    );
-    const validPrices = allPrices.filter(
-      (price) => !isNaN(price) && typeof price === "number"
-    );
-    if (validPrices.length === 0) {
-      return "Hubungi Kami";
-    }
-    const lowestPrice = Math.min(...validPrices);
-    return lowestPrice.toLocaleString();
-  };
 
   const label = t("paketWisata:paketWisata.label", { returnObjects: true });
   const kategori = t("paketWisata:paketWisata.kategori", {
@@ -86,7 +74,7 @@ const ProdukRekomen = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <Button to={`/${currentLang}/produk/sewa-mobil`}>
+        <Button to={getLocalizedPath("/product")}>
           {t("home:rekomendasiProduk.tombol")}
         </Button>
       </div>

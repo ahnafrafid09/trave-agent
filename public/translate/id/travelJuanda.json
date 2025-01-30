@@ -6,7 +6,7 @@
         "id": 1,
         "judul": "Travel Reguler Malang - Bandara Juanda / Surabaya",
         "deskripsi": "Travel Reguler (Perorangan)",
-        "gambar": "/images/travel/bandara.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/bandara.jpg",
         "berangkat": "Berangkat Tiap Hari",
         "keberangkatan": "Start dari Malang Pukul 02.00 WIB",
         "catatan": "Include Tol",
@@ -17,10 +17,10 @@
         "id": 2,
         "judul": "Travel Reguler Bandara Juanda / Surabaya - Malang",
         "deskripsi": "Travel Reguler (Perorangan)",
-        "gambar": "/images/travel/malang.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/malang.jpg",
         "berangkat": "Berangkat Tiap Hari",
         "catatan": "Include Tol",
-        "keberangkatan": "Start dari Malang Pukul 07.00 WIB",
+        "keberangkatan": "Start dari Surabaya / Bandara Juanda Pukul 07.00 WIB",
         "mobil": ["Avanza isi 4", "Innova isi 5", "Hiace isi 10"],
         "harga": 165000
       }

@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import Gallery from "./Gallery";
 import animateNumber from "../../utils/animateNumber";
 import StatCard from "./StatCard";
+import SEO from "../../utils/SEO";
 
 const Home = () => {
   const [totalArmada, setTotalArmada] = useState(0);
@@ -20,7 +21,7 @@ const Home = () => {
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting) {
-          animateNumber(0, 3, 1000, setTotalArmada);
+          animateNumber(0, 10, 1000, setTotalArmada);
           animateNumber(0, 24, 1000, setJamKerja);
           animateNumber(0, 1, 1000, setKantor);
           observer.unobserve(statsRef.current);
@@ -42,6 +43,15 @@ const Home = () => {
 
   return (
     <>
+      <SEO
+        title="Home - Anjangsana Trip Planner"
+        description="Discover the best trips and tours with Anjangsana Trip Planner. Explore our top packages, read reviews, and find out how we can make your journey unforgettable."
+        keywords="trip planner, tour packages, travel, Anjangsana, Anjangsana trip planner, Anjangsana trip"
+        ogImage="URL_to_image"
+        canonicalUrl="https://www.anjangsana.com/"
+        twitterImage="URL_to_image"
+        ogUrl="https://www.anjangsana.com/"
+      />
       <Hero />
       <ProdukRekomen />
       <section className="bg-slate-900 w-full py-8" ref={statsRef}>

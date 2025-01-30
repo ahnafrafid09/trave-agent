@@ -22,9 +22,9 @@ const Card = ({
         alt={judul}
       />
       <div className="flex-grow px-4 py-4">
-        <div className="font-bold text-md sm:text-lg md:text-xl mb-2">
+        <h1 className="font-bold text-md sm:text-lg md:text-xl mb-2">
           {judul}
-        </div>
+        </h1>
         <ul className="text-gray-700 text-sm sm:text-base list-disc pl-4">
           {details.map((detail, index) => (
             <li key={index}>
@@ -41,10 +41,11 @@ const Card = ({
       </div>
       <div className="flex flex-col px-4">
         <p className="text-sm">{t("mulaiDari")}</p>
-        <h1 className="font-bold text-xl">Rp. {harga}</h1>
+        <h2 className="font-bold text-xl">Rp. {harga}</h2>
       </div>
       <div className="px-4 py-2">
         <Button
+          size="md"
           href={`https://wa.me/6282244087426?text=Halo%20Anjangsana%20Trip%20Planner,%20saya%20ingin%20bertanya%20tentang%20berapa%20harga%20${judul}?`}
         >
           {t("pesanSekarang")}
@@ -60,9 +61,7 @@ const Card = ({
           className="text-gray-700 bg-slate-200 rounded-full p-2"
         />
       )}{" "}
-      <div className="font-bold text-lg sm:text-xl md:text-2xl mb-2">
-        {judul}
-      </div>
+      <h1 className="font-bold text-lg sm:text-xl md:text-2xl mb-2">{judul}</h1>
       <p className="text-gray-700 text-sm text-center sm:text-base">
         {deskripsi}
       </p>

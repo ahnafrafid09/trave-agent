@@ -2,18 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Button = ({
-  children, // Teks atau elemen yang akan ditampilkan di dalam tombol
-  onClick, // Fungsi yang akan dipanggil saat tombol diklik
-  type = "button", // Tipe tombol, default "button"
-  variant = "primary", // Varian tombol, default "primary"
-  size = "md", // Ukuran tombol, default "medium"
-  disabled = false, // Status disabled, default "false"
-  href = null, // Link href jika tombol digunakan sebagai link
-  to = null, // Route URL jika menggunakan react-router
-  className = "", // Kelas tambahan
+  children,
+  onClick,
+  type = "button",
+  variant = "primary",
+  size = "md",
+  disabled = false,
+  href = null,
+  to = null,
+  className = "",
 }) => {
   const baseStyle =
     "font-semibold rounded flex items-center justify-center text-center focus:outline-none focus:ring transition duration-300";
+
   const variantStyles = {
     primary: "bg-primary hover:bg-primary-dark text-white",
     secondary: "bg-slate-950 hover:bg-slate-950 text-white",
@@ -22,14 +23,14 @@ const Button = ({
     warning: "bg-yellow-500 hover:bg-yellow-600 text-white",
   };
 
-  const sizeStyles = {
-    sm: "px-3 py-1 text-sm",
-    md: "px-4 py-2 text-md",
-    lg: "px-5 py-3 text-lg",
+  const responsiveSizeStyles = {
+    sm: "px-2 py-1 text-xs sm:px-3 sm:py-1 sm:text-sm md:px-4 md:py-2 md:text-md",
+    md: "px-3 py-2 text-sm sm:px-4 sm:py-2 sm:text-md md:px-5 md:py-3 md:text-lg",
+    lg: "px-4 py-3 text-md sm:px-5 sm:py-3 sm:text-lg md:px-6 md:py-4 md:text-xl",
   };
 
   const classes = `${baseStyle} ${variantStyles[variant]} ${
-    sizeStyles[size]
+    responsiveSizeStyles[size]
   } ${className} ${disabled ? "opacity-50 cursor-not-allowed" : ""}`;
 
   if (to) {

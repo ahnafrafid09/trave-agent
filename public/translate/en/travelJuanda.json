@@ -7,7 +7,7 @@
         "judul": "Travel Reguler Malang - Surabaya / Juanda Airport",
         "deskripsi": "Regular Travel (Individual)",
         "berangkat": "Every Day",
-        "gambar": "/images/travel/bandara.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/bandara.jpg",
         "keberangkatan": "Starts from Malang at 02:00 WIB",
         "catatan": "Include Tol",
         "mobil": [
@@ -19,12 +19,12 @@
       },
       {
         "id": 2,
-        "gambar": "/images/travel/malang.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/malang.jpg",
         "judul": "Travel Reguler Juanda Airport / Surabaya - Malang",
         "deskripsi": "Regular Travel (Individual)",
         "berangkat": "Every Day",
         "catatan": "Include Tol",
-        "keberangkatan": "Starts from Malang at 07:00 WIB",
+        "keberangkatan": "Starts from Surabaya / Juanda Airport at 07:00 WIB",
         "mobil": [
           "Avanza with 4 seats",
           "Innova with 5 seats",

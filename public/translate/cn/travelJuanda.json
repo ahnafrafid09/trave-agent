@@ -6,7 +6,7 @@
         "id": 1,
         "judul": "常规旅行 Malang - Surabaya  / Juanda  机场",
         "deskripsi": "常规旅行（个人）",
-        "gambar": "/images/travel/bandara.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/bandara.jpg",
         "berangkat": "每天",
         "keberangkatan": "从 Malang 出发，时间为 02:00 WIB",
         "catatan": "包含收费公路",
@@ -17,10 +17,10 @@
         "id": 2,
         "judul": "常规旅行 Surabaya / Juanda 机场 - Malang",
         "deskripsi": "常规旅行（个人）",
-        "gambar": "/images/travel/malang.jpg",
+        "gambar": "https://image.anjangsanatrip.com/product/travel/malang.jpg",
         "berangkat": "每天",
         "catatan": "包含收费公路",
-        "keberangkatan": "从 Malang 出发，时间为 07:00 WIB",
+        "keberangkatan": "从 Surabaya / Juanda 机场 出发，时间为 07:00 WIB",
         "mobil": ["Avanza（4个座位），Innova（5个座位），Hiace（10个座位）"],
         "harga": 165000
       }
