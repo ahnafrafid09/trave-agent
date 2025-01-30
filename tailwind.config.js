@@ -21,6 +21,7 @@ export default {
       colors: {
         "primary": "#076ab1",
         "primary-dark": "#054d80",
+        "secondary-yellow": "#fdcd11"
       }
     },
     plugins: [],

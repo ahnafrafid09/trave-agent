@@ -22,7 +22,7 @@ const Map = () => {
   });
 
   return (
-    <div className="w-full h-[30rem] mx-auto">
+    <div className="w-full h-[30rem] mx-auto relative z-10">
       <MapContainer
         center={position}
         zoom={15}

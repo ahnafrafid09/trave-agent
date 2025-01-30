@@ -43,6 +43,7 @@
           "id": 1,
           "judulPaket": "Open Trip Bromo",
           "kategoriId": "bromo",
+          "gambar": "/images/paket-wisata/open trip bromo.png",
           "harga": {
             "1orang": 299000
           },
@@ -73,6 +74,7 @@
         },
         {
           "id": 2,
+          "gambar": "/images/paket-wisata/private trip bromo.png",
           "destinasi": [
             "Sunrise Point",
             "Widodaren Hill",
@@ -117,6 +119,7 @@
         },
         {
           "id": 3,
+          "gambar": "/images/paket-wisata/private trip bromo dokumentasi.png",
           "destinasi": [
             "Sunrise Point",
             "Widodaren Hill",
@@ -162,6 +165,7 @@
         },
         {
           "id": 4,
+          "gambar": "/images/paket-wisata/private trip bromo picnic.png",
           "destinasi": [
             "Sunrise Point",
             "Widodaren Hill",
@@ -217,6 +221,7 @@
         {
           "id": 1,
           "judulPaket": "Tumpak Sewu Waterfall",
+          "gambar": "/images/paket-wisata/tour tumpak sewu.png",
           "kategoriId": "1D",
           "destinasi": [
             "Viewpoint",
@@ -304,6 +309,7 @@
           "id": 2,
           "judulPaket": "Malang Batu City Tour Morning Package 1",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour malang batu.png",
           "destinasi": [
             "Coban Rondo/Selecta/Flora Wisata Area",
             "Paralayang Gunung Banyak/Pujon Kidul Area",
@@ -367,6 +373,7 @@
           "id": 3,
           "judulPaket": "Malang Batu City Tour Morning Package 2",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour malang batu.png",
           "destinasi": [
             "Jatim Park 1/2/3/Angkut Museum",
             "Paralayang Gunung Banyak/Pujon Kidul/Flora Wisata",
@@ -428,6 +435,7 @@
         {
           "id": 4,
           "judulPaket": "Malang Batu Night City Tour",
+          "gambar": "/images/paket-wisata/tour malang malam.png",
           "kategoriId": "1D",
           "destinasi": [
             "Malang Night Paradise/Malang Skyland",
@@ -491,6 +499,7 @@
         {
           "id": 5,
           "judulPaket": "South Malang Beach Tour",
+          "gambar": "/images/paket-wisata/tour malang selatan.png",
           "kategoriId": "1D",
           "destinasi": [
             "Asmoro Bay Beach",
@@ -575,6 +584,7 @@
           "id": 6,
           "judulPaket": "3 Color Beach Tour",
           "kategoriId": "1D",
+          "gambar": "/images/paket-wisata/tour pantai 3 warna.png",
           "destinasi": [
             "3 Color Beach",
             "Gatra Beach",
@@ -682,6 +692,7 @@
           "id": 1,
           "judulPaket": "Gunung Bromo & City Tour Malang Batu",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N Bromo Malang.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -799,6 +810,7 @@
           "id": 2,
           "judulPaket": "City Tour Malang & Batu 2 Days 1 Night",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N malang batu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -882,6 +894,7 @@
           "id": 3,
           "judulPaket": "City Tour Malang Batu & Tumpak Sewu Waterfall",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N malang tumpak sewu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -966,6 +979,7 @@
           "id": 4,
           "judulPaket": "3 Color Beach & Mount Bromo Tour",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N pantai 3 warna bromo.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1082,6 +1096,7 @@
           "id": 5,
           "judulPaket": "Mount Bromo & Tumpak Sewu Waterfall",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N bromo tumpak sewu.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1197,6 +1212,7 @@
           "id": 6,
           "judulPaket": "3 Color Beach & City Tour Malang Batu",
           "kategoriId": "2D1N",
+          "gambar": "/images/paket-wisata/2D1N pantai 3 warna malang.png",
           "deskripsi": {
             "hariPertama": {
               "destinasi": [
@@ -1288,6 +1304,7 @@
         {
           "id": 1,
           "kategoriId": "3D2N",
+          "gambar": "/images/paket-wisata/3D2N malang batu.png",
           "judulPaket": "City Tour Malang & Batu 3 Days 2 Nights",
           "deskripsi": {
             "hariPertama": {
@@ -1381,6 +1398,7 @@
         {
           "id": 2,
           "kategoriId": "3D2N",
+          "gambar": "/images/paket-wisata/3D2N bromo malang.png",
           "judulPaket": "Mount Bromo & City Tour Malang & Batu 3 Days 2 Nights",
           "deskripsi": {
             "hariPertama": {
@@ -1479,6 +1497,7 @@
         {
           "id": 3,
           "kategoriId": "3D2N",
+          "gambar": "/images/paket-wisata/3D2N bromo tumpak.png",
           "judulPaket": "Mount Bromo & Tumpak Sewu Waterfall & 3 Colors Beach",
           "deskripsi": {
             "hariPertama": {
@@ -1605,6 +1624,7 @@
         },
         {
           "id": 4,
+          "gambar": "/images/paket-wisata/3D2N bromo malang pantai.png",
           "kategoriId": "3D2N",
           "judulPaket": "Mount Bromo & City Tour of Malang and Batu & 3 Colors Beach",
           "deskripsi": {
@@ -1740,6 +1760,7 @@
       "listPaketWisata": [
         {
           "id": 1,
+          "gambar": "/images/paket-wisata/4D3N bromo tumpak sewu.png",
           "kategoriId": "4D3N",
           "judulPaket": "City Tour Malang and Batu & Mount Bromo & Tumpak Sewu Waterfall & 3 Colors Beach",
           "deskripsi": {
@@ -1851,6 +1872,7 @@
         {
           "id": 2,
           "kategoriId": "4D3N",
+          "gambar": "/images/paket-wisata/4D3N bromo pantai.png",
           "judulPaket": "Mount Bromo & City Tour Malang and Batu & 3 Colors Beach 4 Days 3 Nights",
           "deskripsi": {
             "hariPertama": {
@@ -1961,6 +1983,7 @@
         {
           "id": 3,
           "kategoriId": "4D3N",
+          "gambar": "/images/paket-wisata/4D3N bromo malang.png",
           "judulPaket": "Mount Bromo & City Tour Malang & Batu 4 Days 3 Nights",
           "deskripsi": {
             "hariPertama": {
@@ -2071,10 +2094,10 @@
     },
     "paketWisata5Hari": {
       "title": "5 Days 4 Nights Tour Package Price List",
-
       "listPaketWisata": [
         {
           "id": 1,
+          "gambar": "/images/paket-wisata/5D4N.png",
           "kategoriId": "5D4N",
           "judulPaket": "Malang & Batu City Tour & Mount Bromo & Tumpak Sewa Waterfall & 3 Colors Beach",
           "deskripsi": {

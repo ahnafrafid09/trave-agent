@@ -20,6 +20,7 @@ const SewaMobil = () => {
               gambar={data.gambar}
               judul={data.namaMobil}
               harga={data.harga.toLocaleString()}
+              styleImage={"h-60"}
               details={[
                 { label: label.tahun, value: data.tahun },
                 { label: label.jenisMobil, value: data.jenisMobil },

@@ -4,5 +4,18 @@
     "judul": "Anjangsana Trip Planner",
     "deskripsi": "Make Your Best Holiday Moments with Us",
     "tombol": "Contact Us"
+  },
+  "rekomendasiProduk": {
+    "judul": "Product Recommendations",
+    "tombol": "Other Products"
+  },
+
+  "stats": {
+    "armada": "Total Fleet",
+    "jamKerja": "Working Hours",
+    "kantor": "Malang Office"
+  },
+  "galeri": {
+    "judul": "Gallery"
   }
 }

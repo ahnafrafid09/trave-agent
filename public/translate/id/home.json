@@ -4,5 +4,17 @@
     "judul": "Anjangsana Trip Planner",
     "deskripsi": "Jadikan Momen Liburan Terbaik Anda Bersama Kami",
     "tombol": "Kontak Kami"
+  },
+  "rekomendasiProduk": {
+    "judul": "Rekomendasi Produk",
+    "tombol": "Produk Lainnya"
+  },
+  "stats": {
+    "armada": "Total Armada",
+    "jamKerja": "Jam Kerja",
+    "kantor": "Kantor Malang"
+  },
+  "galeri":{
+    "judul":"Galeri"
   }
 }

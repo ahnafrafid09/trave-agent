@@ -13,7 +13,7 @@ const Button = ({
   className = "", // Kelas tambahan
 }) => {
   const baseStyle =
-    "font-semibold rounded flex items-center justif-center text-center focus:outline-none focus:ring transition duration-300";
+    "font-semibold rounded flex items-center justify-center text-center focus:outline-none focus:ring transition duration-300";
   const variantStyles = {
     primary: "bg-primary hover:bg-primary-dark text-white",
     secondary: "bg-slate-950 hover:bg-slate-950 text-white",
